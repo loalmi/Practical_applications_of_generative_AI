@@ -22,6 +22,8 @@ from pathlib import Path
 from llm_client import get_model, make_client
 from prompts import IE_SYSTEM  # дополни prompts.py перед запуском
 from schema import Participant  # дополни schema.py перед запуском
+from dotenv import load_dotenv
+load_dotenv()
 
 client = make_client()
 MODEL = get_model()
