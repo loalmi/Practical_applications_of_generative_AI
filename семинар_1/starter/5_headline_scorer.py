@@ -46,7 +46,14 @@ def score_openai(headline: str) -> int:
         temperature=0,
         max_tokens=5,
     )
-    text = resp.choices[0].message.content.strip()
+    # text = resp.choices[0].message.content.strip()
+    content = resp.choices[0].message.content
+    if content is None:
+        print(f"⚠️ Модель вернула None для: {headline[:50]}")
+        return 0  # или -1, если хотите помечать ошибки
+    
+    text = content.strip()
+
     try:
         return int(text)
     except ValueError:

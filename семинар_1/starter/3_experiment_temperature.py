@@ -21,9 +21,10 @@ PROVIDER = "openai"  # ← вариант 1 (OpenAI-совместимый)
 
 # ══════════════════════════════════════════
 
-PROMPT = (
-    "Назови одним словом главную проблему российской экономики. Ответь одним словом."
-)
+# PROMPT = (
+#     "Назови одним словом главную проблему российской экономики. Ответь одним словом."
+# )
+PROMPT = ("Назови одним словом лучший фрукт для завтрака. Ответь одним словом.")
 N_RUNS = 10
 
 
@@ -34,13 +35,31 @@ def run_openai(temperature: float, n: int) -> list[str]:
     model = get_model()
     results = []
     for i in range(n):
-        resp = client.chat.completions.create(
-            model=model,
-            messages=[{"role": "user", "content": PROMPT}],
-            temperature=temperature,
-            max_tokens=50,
-        )
-        results.append(resp.choices[0].message.content.strip())
+        print(f"  Запрос {i+1}/{n} (T={temperature})...", end=" ", flush=True)
+        try:
+            resp = client.chat.completions.create(
+                model=model,
+                messages=[{"role": "user", "content": PROMPT}],
+                temperature=temperature,
+                max_tokens=50,
+            )
+            content = resp.choices[0].message.content
+            if content is None:
+                content = "(модель не дала ответа)"
+            results.append(content.strip())
+            print(f"✅ {content[:30]}")
+        except Exception as e:
+            print(f"❌ ошибка: {e}")
+            results.append(f"(ошибка: {str(e)[:20]})")
+        # resp = client.chat.completions.create(
+        #     model=model,
+        #     messages=[{"role": "user", "content": PROMPT}],
+        #     temperature=temperature,
+        #     max_tokens=50,
+        # )
+        # results.append(resp.choices[0].message.content.strip())
+        
+        
         time.sleep(0.3)  # пауза, чтобы не флудить
     return results
 

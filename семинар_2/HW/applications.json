@@ -1,0 +1,602 @@
+[
+  {
+    "full_name": "Кузнецов Иван Петрович",
+    "age": 34,
+    "address": {
+      "city": "Ростов-на-Дону",
+      "district": "Советский"
+    },
+    "speciality": "Программист",
+    "desired_course": "Python для анализа данных",
+    "years_of_experience": 10,
+    "graduation_year": 2012
+  },
+  {
+    "full_name": "Анна Сергеевна Кузнецова",
+    "age": 34,
+    "address": {
+      "city": "Ростов-на-Дону",
+      "district": "Советский"
+    },
+    "speciality": "Менеджер проектов",
+    "desired_course": "Управление продуктом",
+    "years_of_experience": 10,
+    "graduation_year": 2012
+  },
+  {
+    "full_name": "Александр Сергеевич Петров",
+    "age": 45,
+    "address": {
+      "city": "Казань",
+      "district": "Вахитовский"
+    },
+    "speciality": "Финансист",
+    "desired_course": "Бизнес-аналитика",
+    "years_of_experience": 20,
+    "graduation_year": 2001
+  },
+  {
+    "full_name": "Анна Сергеевна Кузнецова",
+    "age": 34,
+    "address": {
+      "city": "Казань",
+      "district": "Ново-Савиновский"
+    },
+    "speciality": "Менеджер проектов",
+    "desired_course": "Управление продуктом",
+    "years_of_experience": 10,
+    "graduation_year": 2012
+  },
+  {
+    "full_name": "Андрей Владимирович Кузнецов",
+    "age": 35,
+    "address": {
+      "city": "Самара",
+      "district": "Кировский"
+    },
+    "speciality": "Менеджер проектов",
+    "desired_course": "Управление продуктом",
+    "years_of_experience": 7,
+    "graduation_year": 2012
+  },
+  {
+    "full_name": "Елена Сергеевна Кузнецова",
+    "age": 34,
+    "address": {
+      "city": "Челябинск",
+      "district": "Тракторозаводский"
+    },
+    "speciality": "Менеджер проектов",
+    "desired_course": "Управление продуктом",
+    "years_of_experience": 9,
+    "graduation_year": 2012
+  },
+  {
+    "full_name": "Екатерина Сергеевна Иванова",
+    "age": 34,
+    "address": {
+      "city": "Санкт-Петербург",
+      "district": "Приморский"
+    },
+    "speciality": "Аналитик данных",
+    "desired_course": "Машинное обучение",
+    "years_of_experience": 10,
+    "graduation_year": 2012
+  },
+  {
+    "full_name": "Сергеева Елена Павловна",
+    "age": 34,
+    "address": {
+      "city": "Екатеринбург",
+      "district": "Кировский"
+    },
+    "speciality": "Менеджер проектов",
+    "desired_course": "Управление продуктом",
+    "years_of_experience": 11,
+    "graduation_year": 2012
+  },
+  {
+    "full_name": "Иван Петрович Смирнов",
+    "age": 34,
+    "address": {
+      "city": "Ростов-на-Дону",
+      "district": "Советский"
+    },
+    "speciality": "Программист",
+    "desired_course": "Python для анализа данных",
+    "years_of_experience": 8,
+    "graduation_year": 2012
+  },
+  {
+    "full_name": "Анна Сергеевна Кузнецова",
+    "age": 34,
+    "address": {
+      "city": "Москва",
+      "district": "Центральный"
+    },
+    "speciality": "Аналитик данных",
+    "desired_course": "Data Science",
+    "years_of_experience": 8,
+    "graduation_year": 2012
+  },
+  {
+    "full_name": "Мария Петровна Соколова",
+    "age": 38,
+    "address": {
+      "city": "Новосибирск",
+      "district": "Октябрьский"
+    },
+    "speciality": "Аналитик данных",
+    "desired_course": "Python для анализа данных",
+    "years_of_experience": 12,
+    "graduation_year": 2008
+  },
+  {
+    "full_name": "Иванов Сергей Петрович",
+    "age": 34,
+    "address": {
+      "city": "Омск",
+      "district": "Кировский"
+    },
+    "speciality": "Программист",
+    "desired_course": "Python для анализа данных",
+    "years_of_experience": 8,
+    "graduation_year": 2013
+  },
+  {
+    "full_name": "Иванов Сергей Петрович",
+    "age": 45,
+    "address": {
+      "city": "Новосибирск",
+      "district": "Октябрьский"
+    },
+    "speciality": "Программист",
+    "desired_course": "Машинное обучение",
+    "years_of_experience": 20,
+    "graduation_year": 2001
+  },
+  {
+    "full_name": "Иванова Елена Петровна",
+    "age": 34,
+    "address": {
+      "city": "Самара",
+      "district": "Кировский"
+    },
+    "speciality": "Финансист",
+    "desired_course": "Бизнес-аналитика",
+    "years_of_experience": 10,
+    "graduation_year": 2012
+  },
+  {
+    "full_name": "Анна Сергеевна Иванова",
+    "age": 34,
+    "address": {
+      "city": "Санкт-Петербург",
+      "district": "Василеостровский"
+    },
+    "speciality": "Аналитик данных",
+    "desired_course": "Data Science",
+    "years_of_experience": 8,
+    "graduation_year": 2012
+  },
+  {
+    "full_name": "Сергей Петрович Иванов",
+    "age": 45,
+    "address": {
+      "city": "Самара",
+      "district": "Ленинский"
+    },
+    "speciality": "Менеджер проектов",
+    "desired_course": "Управление продуктом",
+    "years_of_experience": 20,
+    "graduation_year": 2001
+  },
+  {
+    "full_name": "Иван Петрович Смирнов",
+    "age": 45,
+    "address": {
+      "city": "Нижний Новгород",
+      "district": "Автозаводский"
+    },
+    "speciality": "Программист",
+    "desired_course": "Python для анализа данных",
+    "years_of_experience": 18,
+    "graduation_year": 2001
+  },
+  {
+    "full_name": "Анна Викторовна Смирнова",
+    "age": 34,
+    "address": {
+      "city": "Екатеринбург",
+      "district": "Орджоникидзевский"
+    },
+    "speciality": "Аналитик данных",
+    "desired_course": "Data Science",
+    "years_of_experience": 10,
+    "graduation_year": 2012
+  },
+  {
+    "full_name": "Анна Сергеевна Кузнецова",
+    "age": 34,
+    "address": {
+      "city": "Казань",
+      "district": "Советский"
+    },
+    "speciality": "Аналитик данных",
+    "desired_course": "Data Science",
+    "years_of_experience": 8,
+    "graduation_year": 2012
+  },
+  {
+    "full_name": "Сергей Николаевич Иванов",
+    "age": 35,
+    "address": {
+      "city": "Ростов-на-Дону",
+      "district": "Ленинский"
+    },
+    "speciality": "Программист",
+    "desired_course": "Python для анализа данных",
+    "years_of_experience": 10,
+    "graduation_year": 2011
+  },
+  {
+    "full_name": "Кузнецова Елена Павловна",
+    "age": 34,
+    "address": {
+      "city": "Москва",
+      "district": "Центральный"
+    },
+    "speciality": "Аналитик данных",
+    "desired_course": "Data Science",
+    "years_of_experience": 10,
+    "graduation_year": 2012
+  },
+  {
+    "full_name": "Петрова Анна Сергеевна",
+    "age": 34,
+    "address": {
+      "city": "Челябинск",
+      "district": "Центральный"
+    },
+    "speciality": "Менеджер проектов",
+    "desired_course": "Управление продуктом",
+    "years_of_experience": 10,
+    "graduation_year": 2014
+  },
+  {
+    "full_name": "Иванова Мария Сергеевна",
+    "age": 42,
+    "address": {
+      "city": "Санкт-Петербург",
+      "district": "Приморский"
+    },
+    "speciality": "Финансист",
+    "desired_course": "Бизнес-аналитика",
+    "years_of_experience": 18,
+    "graduation_year": 2003
+  },
+  {
+    "full_name": "Иванова Мария Сергеевна",
+    "age": 34,
+    "address": {
+      "city": "Санкт-Петербург",
+      "district": "Приморский"
+    },
+    "speciality": "Аналитик данных",
+    "desired_course": "Python для анализа данных",
+    "years_of_experience": 8,
+    "graduation_year": 2013
+  },
+  {
+    "full_name": "Иванова Елена Петровна",
+    "age": 34,
+    "address": {
+      "city": "Омск",
+      "district": "Кировский"
+    },
+    "speciality": "Менеджер проектов",
+    "desired_course": "Управление продуктом",
+    "years_of_experience": 10,
+    "graduation_year": 2012
+  },
+  {
+    "full_name": "Иван Петрович Смирнов",
+    "age": 35,
+    "address": {
+      "city": "Омск",
+      "district": "Центральный"
+    },
+    "speciality": "Программист",
+    "desired_course": "Python для анализа данных",
+    "years_of_experience": 10,
+    "graduation_year": 2012
+  },
+  {
+    "full_name": "Анна Сергеевна Иванова",
+    "age": 34,
+    "address": {
+      "city": "Самара",
+      "district": "Кировский"
+    },
+    "speciality": "Маркетолог",
+    "desired_course": "Цифровой маркетинг",
+    "years_of_experience": 10,
+    "graduation_year": 2012
+  },
+  {
+    "full_name": "Иванова Елена Сергеевна",
+    "age": 38,
+    "address": {
+      "city": "Екатеринбург",
+      "district": "Орджоникидзевский"
+    },
+    "speciality": "Финансист",
+    "desired_course": "Бизнес-аналитика",
+    "years_of_experience": 12,
+    "graduation_year": 2008
+  },
+  {
+    "full_name": "Сергей Викторович Иванов",
+    "age": 45,
+    "address": {
+      "city": "Ростов-на-Дону",
+      "district": "Октябрьский"
+    },
+    "speciality": "Программист",
+    "desired_course": "Python для анализа данных",
+    "years_of_experience": 18,
+    "graduation_year": 2001
+  },
+  {
+    "full_name": "Иванова Мария Сергеевна",
+    "age": 34,
+    "address": {
+      "city": "Омск",
+      "district": "Кировский"
+    },
+    "speciality": "Аналитик данных",
+    "desired_course": "Data Science",
+    "years_of_experience": 10,
+    "graduation_year": 2012
+  },
+  {
+    "full_name": "Анна Сергеевна Петрова",
+    "age": 34,
+    "address": {
+      "city": "Казань",
+      "district": "Приволжский"
+    },
+    "speciality": "Менеджер проектов",
+    "desired_course": "Управление продуктом",
+    "years_of_experience": 10,
+    "graduation_year": 2012
+  },
+  {
+    "full_name": "Анна Сергеевна Иванова",
+    "age": 34,
+    "address": {
+      "city": "Самара",
+      "district": "Промышленный"
+    },
+    "speciality": "Менеджер проектов",
+    "desired_course": "Управление продуктом",
+    "years_of_experience": 10,
+    "graduation_year": 2012
+  },
+  {
+    "full_name": "Иванов Иван Иванович",
+    "age": 35,
+    "address": {
+      "city": "Москва",
+      "district": "Центральный"
+    },
+    "speciality": "Программист",
+    "desired_course": "Python для анализа данных",
+    "years_of_experience": 10,
+    "graduation_year": 2011
+  },
+  {
+    "full_name": "Андрей Владимирович Смирнов",
+    "age": 34,
+    "address": {
+      "city": "Екатеринбург",
+      "district": "Октябрьский"
+    },
+    "speciality": "Программист",
+    "desired_course": "Python для анализа данных",
+    "years_of_experience": 10,
+    "graduation_year": 2012
+  },
+  {
+    "full_name": "Анна Владимировна Смирнова",
+    "age": 34,
+    "address": {
+      "city": "Челябинск",
+      "district": "Калининский"
+    },
+    "speciality": "Менеджер проектов",
+    "desired_course": "Управление продуктом",
+    "years_of_experience": 8,
+    "graduation_year": 2012
+  },
+  {
+    "full_name": "Елена Владимировна Соколова",
+    "age": 38,
+    "address": {
+      "city": "Нижний Новгород",
+      "district": "Сормовский"
+    },
+    "speciality": "Менеджер проектов",
+    "desired_course": "Управление продуктом",
+    "years_of_experience": 14,
+    "graduation_year": 2008
+  },
+  {
+    "full_name": "Иванова Анна Сергеевна",
+    "age": 34,
+    "address": {
+      "city": "Новосибирск",
+      "district": "Октябрьский"
+    },
+    "speciality": "Аналитик данных",
+    "desired_course": "Python для анализа данных",
+    "years_of_experience": 9,
+    "graduation_year": 2012
+  },
+  {
+    "full_name": "Иванова Мария Сергеевна",
+    "age": 32,
+    "address": {
+      "city": "Санкт-Петербург",
+      "district": "Приморский"
+    },
+    "speciality": "Маркетолог",
+    "desired_course": "Цифровой маркетинг",
+    "years_of_experience": 8,
+    "graduation_year": 2014
+  },
+  {
+    "full_name": "Сергей Иванович Петров",
+    "age": 37,
+    "address": {
+      "city": "Новосибирск",
+      "district": "Центральный"
+    },
+    "speciality": "Программист",
+    "desired_course": "Python для анализа данных",
+    "years_of_experience": 12,
+    "graduation_year": 2009
+  },
+  {
+    "full_name": "Смирнова Анна Викторовна",
+    "age": 32,
+    "address": {
+      "city": "Новосибирск",
+      "district": "Октябрьский"
+    },
+    "speciality": "Менеджер проектов",
+    "desired_course": "Управление продуктом",
+    "years_of_experience": 8,
+    "graduation_year": 2014
+  },
+  {
+    "full_name": "Иванова Мария Сергеевна",
+    "age": 35,
+    "address": {
+      "city": "Москва",
+      "district": "Центральный"
+    },
+    "speciality": "Аналитик данных",
+    "desired_course": "Data Science",
+    "years_of_experience": 10,
+    "graduation_year": 2012
+  },
+  {
+    "full_name": "Анна Сергеевна Кузнецова",
+    "age": 34,
+    "address": {
+      "city": "Нижний Новгород",
+      "district": "Автозаводский"
+    },
+    "speciality": "Менеджер проектов",
+    "desired_course": "Управление продуктом",
+    "years_of_experience": 10,
+    "graduation_year": 2012
+  },
+  {
+    "full_name": "Ирина Петровна Кузнецова",
+    "age": 38,
+    "address": {
+      "city": "Нижний Новгород",
+      "district": "Нижегородский"
+    },
+    "speciality": "Маркетолог",
+    "desired_course": "Цифровой маркетинг",
+    "years_of_experience": 12,
+    "graduation_year": 2008
+  },
+  {
+    "full_name": "Иванов Алексей Петрович",
+    "age": 35,
+    "address": {
+      "city": "Челябинск",
+      "district": "Центральный"
+    },
+    "speciality": "Программист",
+    "desired_course": "Data Science",
+    "years_of_experience": 10,
+    "graduation_year": 2012
+  },
+  {
+    "full_name": "Сергеев Дмитрий Алексеевич",
+    "age": 34,
+    "address": {
+      "city": "Омск",
+      "district": "Кировский"
+    },
+    "speciality": "Аналитик данных",
+    "desired_course": "Машинное обучение",
+    "years_of_experience": 10,
+    "graduation_year": 2012
+  },
+  {
+    "full_name": "Иванова Елена Петровна",
+    "age": 34,
+    "address": {
+      "city": "Челябинск",
+      "district": "Калининский"
+    },
+    "speciality": "Программист",
+    "desired_course": "Python для анализа данных",
+    "years_of_experience": 10,
+    "graduation_year": 2012
+  },
+  {
+    "full_name": "Иванов Сергей Петрович",
+    "age": 35,
+    "address": {
+      "city": "Нижний Новгород",
+      "district": "Сормовский"
+    },
+    "speciality": "Программист",
+    "desired_course": "Машинное обучение",
+    "years_of_experience": 10,
+    "graduation_year": 2011
+  },
+  {
+    "full_name": "Сергей Владимирович Кузнецов",
+    "age": 35,
+    "address": {
+      "city": "Екатеринбург",
+      "district": "Кировский"
+    },
+    "speciality": "Программист",
+    "desired_course": "Python для анализа данных",
+    "years_of_experience": 10,
+    "graduation_year": 2011
+  },
+  {
+    "full_name": "Смирнова Елена Викторовна",
+    "age": 34,
+    "address": {
+      "city": "Казань",
+      "district": "Вахитовский"
+    },
+    "speciality": "Менеджер проектов",
+    "desired_course": "Управление продуктом",
+    "years_of_experience": 10,
+    "graduation_year": 2012
+  },
+  {
+    "full_name": "Александр Иванович Петров",
+    "age": 42,
+    "address": {
+      "city": "Москва",
+      "district": "Центральный"
+    },
+    "speciality": "Менеджер проектов",
+    "desired_course": "Управление продуктом",
+    "years_of_experience": 18,
+    "graduation_year": 2004
+  }
+]
