@@ -1,0 +1,107 @@
+[00:00] Speaker A: Hello everyone, settle in comfortably, girls. Yes, boys, squirrels, yes, bunnies. Now I will tell you a story. Once upon a time, there was an IT department leader, a team lead, or simply put, a handsome, prominent man, a leader. And he had two programmers in his service. Kind, good fellows, smart and hardworking.
+
+[00:16] Speaker A: медл плюс в общем и сроки соблюдали и правки вносили и фичи запиливать и даже ветку мастер не пушились но был разлад между ними страшный по одиночки могли и горы свернуть но стоило им вместе за какое-то дело взяться так оно сразу
+
+[00:28] Speaker A: They were good at meeting deadlines, making edits, developing features, and they never pushed directly to the master branch. But there was a terrible discord between them. Alone, they could move mountains, but as soon as they worked together on something, it became a burden.
+
+[00:44] Speaker A: общался и просил и грозил всё без толку то ли злы друг на друга то ли ещё чего непонятно и пришёл наш МТ девопсу плакаться о кручи не своей рассказывать и заставить нельзя и убедить нельзя и кнутом и пряником всё как об стенку
+
+[00:57] Speaker A: One was a devout Windows user, the other saw no meaning in life without native Linux. Bugs, branches, project files got mixed up, and instead of code, comments were written. The workday was filled with unbearable noise.
+
+[01:17] Speaker A: домой идти а он сам с девопсом за компанию решит все проблемы пришёл тимлид на следующий день отдохнувший выспавшийся глядит и не узнаёт свой офис всё ладно да складно новые фичи готовы багов как не бывало проекты хоть сегодня сдавай начальник позвонил похвалил что
+
+[01:31] Speaker A: The team lead tried everything: organizing training, talking to them, asking, threatening, but all in vain. Maybe they hated each other, or something else, it was unclear. Then our team lead went to the DevOps guy to complain. You can't force them, you can't convince them, neither with a carrot nor a stick. It's like talking to a brick wall.
+
+[01:46] Speaker A: ними бегает руководит и подсказывает и не тяжело ему так спросил тимлид для того его и привели сюда работать так Теперь будем и весь этот механизм хитро обзо виртуализация Сказка ложь да вней намёк виртуализация как технология имеет широкое распространение в сфере IT и
+
+[02:02] Speaker A: Separately, they are gold, but together they are a different substance. So, the DevOps guy thought, scratched his chin, and gave a colleague a hypervisor that would solve all problems instantly. Our team lead brought this hypervisor to the office, told him about his troubles. The hypervisor smiled and advised the team lead to go home, and he himself would solve all the problems with DevOps.
+
+[02:18] Speaker A: знаете любой персональный компьютер сервер и подобное устройство работает на определённой операционной системы будь то Windows Linux macos и так далее по списку как правило на одно физическое устройство ставят одну операционную систему Но что если вам для работы нужно
+
+[02:32] Speaker A: The next day, the team lead came back rested and well-slept, looked around, and did not recognize his office. Everything was fine, smooth, new features were ready, no bugs, projects could be delivered today. The boss called, praised that the work had become better than before, promised a bonus.
+
+[02:45] Speaker A: Уже занят они неизбежно начнут конфликтовать друг с другом лучшим решением в этой ситуации будет именно виртуализация то есть установка операционной системы поверх уже имеющейся в особой изолированной программной следе и всё это в рамках одного физического устройства сложно сейчас
+
+[03:00] Speaker A: The team lead approached DevOps and asked, "How is it possible? Our good fellows now work together." "No," answered the team lead, "they sit separately, each in their own corner, working and not knowing that they are not alone but together. And the hypervisor runs between them, manages, and advises." "Isn't it hard for him?" asked the team lead. "That's why we brought him here to work," said DevOps.
+
+[03:14] Speaker A: компьютера если вам интересна тема разбора BIOS Пишите в комментариях свои пожелания мы это обязательно учтём в следующих роликах вот примерная схема того что из себя представляет принцип виртуализации как правило одна операционная система занимает собой все ресурсы компьютера виртуализация же
+
+[03:29] Speaker A: So now we will look at this whole mechanism cleverly called virtualization. A fairy tale is a lie, but there is a hint in it. Virtualization as a technology is widely used in IT, and it can be confidently said that any successful company inevitably uses virtualization in its IT infrastructure. Moreover, many ordinary users sometimes use this technology without even realizing it.
+
+[03:46] Speaker A: хозяин далее посредством виртуализации мы устанавливаем на наш сервер сразу три операционных системы назовём их гостевыми каждая при этом будет со своими характеристиками по ресурсам фрагментом того что мог предоставить сам сервер представьте себе такую большую каструлю которую разливают по отдельным
+
+[04:01] Speaker A: Let's figure out what virtualization is, why it is needed, and how it works. As you know, any personal computer, server, or similar device runs on a specific operating system, be it Windows, Linux, macOS, and so on. Usually, one physical device has one operating system installed. But what if you need software that conflicts with the system installed on your device, and you don't want to change it?
+
+[04:16] Speaker A: также и с гостевыми операционка у какой-то больше азу у другой больше ядер ЦП у третьей вообще два сетевых адаптера подключили как и в случае спор сами каждый из которых находится в своей тарелке так и наши системы как правило
+
+[04:28] Speaker A: Can you install a second system on the same device? Yes, if you have a separate hard drive without files from the main system. If you try to install it on the same drive that is already occupied, they will inevitably conflict with each other.
+
+[04:41] Speaker A: своими ресурсами файлами и прочим называют виртуальной машиной виртуализацию применяют там где использование одной операционной системы неудобно или попросту нецелесообразно предположим вы управляете сервером некого крупного учреждения и с этим сервером необходимо работать множеству пользователей при этом у каждого пользователя свои нужды кто-то работает
+
+[04:59] Speaker A: The best solution in this situation is virtualization, that is, installing an operating system on top of the existing one in a special isolated software environment, all within one physical device.
+
+[05:13] Speaker A: инструментов Никто никого ждать не хочет программы должны работать здесь и сейчас Чётко и быстро Да конечно каждому такому пользователю можно создать отдельную учётную запись на общем сервере Однако такой подход будет оправдан только в том случае если пользователи решают
+
+[05:27] Speaker A: Now, by physical device, we mean the computer itself, everything inside the case. Peripherals, monitor, control devices also participate. The software part is BIOS and the operating system itself. The first is not our concern now, although it is important for the computer's operation.
+
+[05:42] Speaker A: одной операционной системой на всех будет не только неудобно но и небезопасно А главное ресурсы системы будут неравномерно поделены между пользователями тут уже и стоит поднять вопрос о создании таких рабочих зон где у каждого будет свой маленький уголок внутри общего сервера как кабинет в
+
+[05:57] Speaker A: If you are interested in BIOS, write your wishes in the comments, and we will definitely consider it in future videos.
+
+[06:08] Speaker A: самой технологии виртуализации раскрыт А если вы хотите узнать больше об этой теме потренироваться на практике обучиться или трудоустроиться системным администратором то По ссылкам в описании вы найдёте необходимые материалы которые помогут вам в этом А теперь давайте ненадолго окунёвая вления виртуализации
+
+[06:24] Speaker A: Here is a rough scheme of what virtualization looks like. Usually, one operating system occupies all the computer's resources. Virtualization allows allocating a certain part of these resources to run another system.
+
+[06:38] Speaker A: конце шестидесятых годов прошлого Столетия Хорошее было время Эпоха застоя в СССР первый оптический лазер Белка и Стрелка летят в космос а Корпорация IBM тем временем уже является монополистом на рынке обработки бизнес данных со своими мейнфрейм IBM System 360 сам
+
+[06:53] Speaker A: Suppose we have a server with certain technical characteristics. The hardware resources listed below are all the resources the device has. It already has an operating system installed, which we call the host.
+
+[07:11] Speaker A: пакетами задач такая концепция была обусловлена актуальностью парадигмы один компьютер за один присест выполняет только одну задачу Однако довольно скоро в abbn осознали что на рынке присутствует весьма солидный спрос на многопользовательские машины мощным толчком для действий послужили запросы от mit и Bell laabs на разработку таких
+
+[07:27] Speaker A: Then, using virtualization, we install three operating systems on our server, which we call guests. Each will have its own characteristics in terms of resources, a fragment of what the server itself can provide.
+
+[07:43] Speaker A: памяти одновременно по своей сути cp40 была первым полноценным гипервизоров или хостой системой управляющей виртуальными машинами параллельно с cp40 была разработана программа cms Cambridge Monitor System она обеспечивала среду для запуска приложений и взаимодействия с пользователями cms была крохотной интерактивной операционной системой для
+
+[08:02] Speaker A: Imagine a large pot being divided into separate plates with portions. The plates can be of different depths, and the portions don't have to be equal. Each person can do whatever they want with their portion, add salt or pepper, spill it into a bucket, or eat it all without touching the pot itself.
+
+[08:19] Speaker A: году а к 1972 году на рынок были выпущены их стабильные версии правда очень долгое время эти разработки оставались уделом исключительно крупных корпораций и научно-исследовательских институтов настоящий же интерес широкой общественности гипервизора приходится на началу и середина двухтысячных не буду
+
+[08:35] Speaker A: The same goes for guest operating systems. One may have more RAM, another more CPU cores, and a third may have two network adapters connected, just like in the example. Each is in its own plate.
+
+[08:49] Speaker A: стабильнее а сами гипервизоры стали куда надёжнее и интуитивно понятнее производителей гипервизоров становится всё больше и теперь любой пользователь мог выбрать то решение которое было максимально для него подходящим И как у нас часто бывает началось их разделение на два основных типа как вы думаете как
+
+[09:05] Speaker A: Our systems usually do not interact with each other. They do not see each other's files, connected devices, or running processes, of course, until the user sets up interaction between them.
+
+[09:19] Speaker A: оставалось 15 минут Ладно тут немного слука Вил в среди сис админов первый тип называют be Metal или голый металл а второй - hosted или хосту емое первый тип - это сильные независимые гипервизоры иногда называемые автономными для работы им не нужна никая
+
+[09:34] Speaker A: Thus, in our example, each of the three independent operating systems with its resources, files, and more is called a virtual machine.
+
+[09:51] Speaker A: контролем над устройством сама операционная система контролирует их работу подкаблучники другим словом в этом случае гостевая операционная система выполняется как процесс основными примерами здесь являются vmw workstation vmw Player и крайне популярная Virtual Box здесь же стоит упомянуть и про BL stex Sub Player
+
+[10:08] Speaker A: Virtualization is used where using one operating system is inconvenient or simply impractical. Suppose you manage a server for a large institution, and many users need to work with this server. Each user has their own needs.
+
+[10:24] Speaker A: Здесь тоже всё довольно просто типов виртуализации всего три и о них мы поговорим далее и первое в очереди у нас программная виртуализация для неё используются уже знакомые нам гипервизоры второго типа здесь операционная система сервера распоряжается ресурсами железа и
+
+[10:38] Speaker A: Some work only with corporate mail, file sharing, and text editors. Others need access only to the CRM system. The accounting department, for example, works with several databases, access to which should be exclusive to them.
+
+[10:51] Speaker A: имеет свои подводные камни из-за длинное цепочки по которой проходит каждая команда снижается быстродействие всей этой структуры невооружённым глазом такую задержку едва ли заметите но до тех пор пока вам не понадобится достаточно большое количество виртуальных машин со временем быстродействие будет снижаться в
+
+[11:06] Speaker A: Each user demands performance from their tools. No one wants to wait. Programs must work here and now, clearly and quickly.
+
+[11:21] Speaker A: каком-то плане сам гипервизор выполняет часть её возможностей он берёт на себя только функции по запуску гостевых операционных систем и их процессов главный плюс разумеется это быстродействие каждая ваша команда гостевой операционной системе обрабатывается меньшим количеством механизмов что значительно ускоряет все
+
+[11:37] Speaker A: Of course, you can create a separate user account for each user on a shared server. However, this approach is justified only if users solve similar tasks, like bank operators, each needing a strictly defined set of programs, no more and no less.
+
+[11:51] Speaker A: это особый случай где вообще не используются гипервизоры здесь создаются не полноценные виртуальные машины с гостевыми OS а отдельные процессы контейнеры это такие микросреды с выделенной сетью дисковым пространством файловой системой и прочими ресурсами принцип их работы можно сравнить с
+
+[12:06] Speaker A: But what about other employees whose work may require installing special software or administrator rights? It turns out that working on one server with one operating system for everyone is not only inconvenient but also unsafe.
+
+[12:22] Speaker A: построении отказоустойчивых и производительных инфраструктур Подводя итоги хочется сказать что виртуализация очень сложная но так и очень важная в нынешнее время технология возможность использовать разными процессами все 100% мощности своего устройства не жертвуя при этом его функциональностью крайне важный Аспект оптимизации и банальной
+
+[12:40] Speaker A: Most importantly, system resources will be unevenly distributed among users. Here, the question arises about creating work zones where each has their own little corner inside the shared server, like an office in a large office building.
+
+[12:54] Speaker A: по ретро играм запуская эмулятор старой консоли изучаете ли вы другую операционную систему устанавливая её от от своей основной пользуетесь ли вы облачными технологиями для хранения данных виртуализация задействована везде и изучение её возможностей и инструментов управления ею важный этап
+
+[13:09] Speaker A: Here, as an admin, you won't install, say, Postman on all workstations. And if something goes wrong, it will only affect the assigned corner, not the entire server.
+
+[13:24] Speaker A: всегда быть в теме До скорых встреч

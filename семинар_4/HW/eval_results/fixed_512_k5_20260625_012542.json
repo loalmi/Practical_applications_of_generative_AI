@@ -1,0 +1,116 @@
+{
+  "strategy": "fixed_512",
+  "k": 5,
+  "hit_rate": 0.9166666666666666,
+  "timestamp": "20260625_012542",
+  "results": [
+    {
+      "id": 1,
+      "type": "прямой",
+      "question": "Какой инструмент мониторинга подходит для быстрой диагностики одного сервера и устанавливается за минуты?",
+      "score": 1.0,
+      "gold_sources": "doc_1",
+      "retrieved_sources": "doc_1, doc_1, doc_1, doc_1, doc_1",
+      "hit": true
+    },
+    {
+      "id": 2,
+      "type": "прямой",
+      "question": "Как называется метод, который позволяет нескольким локальным IP-адресам использовать один глобальный адрес с разными портами?",
+      "score": 1.0,
+      "gold_sources": "doc_3",
+      "retrieved_sources": "doc_3, doc_3, doc_3, doc_3, doc_3",
+      "hit": true
+    },
+    {
+      "id": 3,
+      "type": "прямой",
+      "question": "Что такое RAID 10 и из какого количества дисков он строится?",
+      "score": 1.0,
+      "gold_sources": "doc_5",
+      "retrieved_sources": "doc_5, doc_5, doc_5, doc_5, doc_5",
+      "hit": true
+    },
+    {
+      "id": 4,
+      "type": "синоним",
+      "question": "Какая технология позволяет запускать несколько изолированных операционных систем на одном физическом сервере, чтобы они не мешали друг другу?",
+      "score": 1.0,
+      "gold_sources": "doc_4",
+      "retrieved_sources": "doc_5, doc_4, doc_4, doc_4, doc_5",
+      "hit": true
+    },
+    {
+      "id": 5,
+      "type": "синоним",
+      "question": "Как называется сетевое хранилище, которое можно подключить к домашнему роутеру и использовать как личное облако для хранения файлов?",
+      "score": 1.0,
+      "gold_sources": "doc_5",
+      "retrieved_sources": "doc_5, doc_5, doc_5, doc_5, doc_5",
+      "hit": true
+    },
+    {
+      "id": 6,
+      "type": "синоним",
+      "question": "В каком инструменте мониторинга используется pull-модель сбора метрик, где система сама ходит за данными через экспортёры?",
+      "score": 1.0,
+      "gold_sources": "doc_1",
+      "retrieved_sources": "doc_1, doc_1, doc_1, doc_1, doc_1",
+      "hit": true
+    },
+    {
+      "id": 7,
+      "type": "точный артикул",
+      "question": "Что такое RFC 1918 и какие сети он описывает?",
+      "score": 1.0,
+      "gold_sources": "doc_3",
+      "retrieved_sources": "doc_3, doc_3, doc_5, doc_3, doc_1",
+      "hit": true
+    },
+    {
+      "id": 8,
+      "type": "multi-hop",
+      "question": "Я потерял доступ к VPN и не знаю, кому написать. Кто из сотрудников отвечает за безопасность сети, и какой инструмент мониторинга поможет отследить проблемы с сетевым оборудованием?",
+      "score": 0.5,
+      "gold_sources": "doc_1, doc_2",
+      "retrieved_sources": "doc_1, doc_1, doc_5, doc_1, doc_5",
+      "hit": false
+    },
+    {
+      "id": 9,
+      "type": "multi-hop",
+      "question": "Что общего между технологией NAT и системой хранения данных SAN с точки зрения архитектуры и масштабируемости?",
+      "score": 0.5,
+      "gold_sources": "doc_3, doc_5",
+      "retrieved_sources": "doc_5, doc_5, doc_5, doc_5, doc_5",
+      "hit": false
+    },
+    {
+      "id": 10,
+      "type": "позитив",
+      "question": "Какая система мониторинга считается эталоном стабильности и надёжности, но требует ручной настройки плагинов?",
+      "score": 1.0,
+      "gold_sources": "doc_1",
+      "retrieved_sources": "doc_1, doc_1, doc_1, doc_1, doc_1",
+      "hit": true
+    },
+    {
+      "id": 11,
+      "type": "перефраз",
+      "question": "Если у меня много микросервисов в облаке и данных становится слишком много для Prometheus, что мне стоит использовать для хранения метрик?",
+      "score": 1.0,
+      "gold_sources": "doc_1",
+      "retrieved_sources": "doc_1, doc_1, doc_5, doc_1, doc_1",
+      "hit": true
+    },
+    {
+      "id": 12,
+      "type": "перефраз",
+      "question": "На собеседовании спросили, почему я ушёл с прошлой работы. Как лучше ответить, чтобы не испортить впечатление о себе?",
+      "score": 1.0,
+      "gold_sources": "doc_2",
+      "retrieved_sources": "doc_2, doc_2, doc_2, doc_2, doc_2",
+      "hit": true
+    }
+  ]
+}
