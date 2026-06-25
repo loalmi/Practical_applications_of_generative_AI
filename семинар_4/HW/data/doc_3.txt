@@ -1,0 +1,73 @@
+[00:00] Speaker A: Hello everyone! Have you heard the phrase, "Let's solve problems as they come"? Usually, this is said by those who don't like to plan and prefer to solve tasks on the fly. Sometimes it really works because predicting all problems is simply impossible. The history of IT processes is exactly about this.
+
+[00:14] Speaker A: об этом сегодня мы разберём технологию над которая была создана для решения очень актуальной проблемы связанной с нехваткой в конкретных примерах чтобы понять что такое над Сперва надо копнуть в суть проблемы которую эта технология решает Представьте что на дворе 1981 год
+
+[00:38] Speaker A: Today, we will analyze the NAT technology, which was created to solve a very relevant problem related to shortages, using specific examples to understand what NAT is. First, we need to dig into the essence of the problem that this technology solves. Imagine it is 1981.
+
+[00:52] Speaker A: глобальную сеть он же интернет насчитывает меньше 1.000 единиц по всей планете тогда интернет только начинал формироваться и для адресации устройств использовался протокол IP V4 с тридцати двух битным адресами данная версия протокола насчитывает около 4 млрд уникальных IP адресов цифра по состоянию
+
+[01:07] Speaker A: Mobile phones still look like huge bricks and are available only to a few because they cost as much as an airplane wing. At the same time, the first mass personal computer, the IBM PC, is released at a rather undemocratic price of $1,500. Meanwhile, the number of devices with access to the global network, also known as the Internet, is less than 1,000 units worldwide.
+
+[01:21] Speaker A: что проще было поверить в существование единорогов А значит и 4 млрд IP адресов которые обеспечивал протокол ipv4 действительно выглядели неисчерпаемыми Однако технологический процесс в то время шёл семимильными шагами и уже в конце восьмидесятых стало понятно что даже такого количества адресного
+
+[01:36] Speaker A: Back then, the Internet was just beginning to form, and the IPv4 protocol with 32-bit addresses was used for device addressing. This version of the protocol has about 4 billion unique IP addresses, a colossal number for 1981, considering the world population was about 4.5 billion people at that time.
+
+[02:08] Speaker A: стоит компьютер Потомок того самого IBM PC из Восьмидесятых вдобавок к нему Наверняка есть ноутбук для возможности комфортной работы вне дома а ещё туда же планшет Умный телевизор может даже не один умные колонки смарт-часы и ещё куча гаджетов имеющих выход в интернет и это
+
+[02:24] Speaker A: The possibility of providing at least every second person on the planet with a personal device connected to the Internet seemed so fantastic that it was easier to believe in the existence of unicorns. So, the 4 billion IP addresses provided by the IPv4 protocol really seemed inexhaustible.
+
+[02:40] Speaker A: нужной информацией для тех кто хочет освоить профессию сисадмина ссылку на него я оставлю в описании Не забудьте подписаться в начале девяностых масштаб бедствия стал очевиден и в промежутке с девяносто второго по девяносто шестой была разработана новая версия протокола
+
+[02:53] Speaker A: However, technological progress was rapid, and by the late 1980s, it became clear that even such an address space would be insufficient, and a shortage of unique IP addresses would occur within 10 years or so, according to protocol developers, due to the appearance of more affordable mobile devices.
+
+[03:11] Speaker A: временным решением и стал над и как все мы знаем нет ничего более постоянного чем временное именно так над прочно вошёл в инфраструктуру Network Address Translation или трансляция сетевых адресов - это Метод при котором один или несколько локальных IP адресов
+
+[03:26] Speaker A: Look at our life today: everyone has a personal smartphone with Internet access from anywhere in the world. At home, we have a computer, a descendant of the IBM PC from the 1980s. In addition, there is probably a laptop for comfortable work outside the home, plus a tablet, a smart TV—maybe more than one—smart speakers, smartwatches, and many other gadgets with Internet access.
+
+[03:40] Speaker A: относятся к классу зарезервированных сетей и имеют вот такой вид Согласно международным стандартам rfc 1918 и 1597 такой класс сетей может использоваться только для построения локальных сетевых инфраструктур будь то сеть малого офиса большого предприятие или домашняя сеть то есть интернет-провайдеры не могут
+
+[03:57] Speaker A: This is just the basic set for one person. Naturally, almost every device instantly stops being useful if it does not have access to the global network. But what definitely will not stop being useful is our Telegram channel, where we share important and useful information for those who want to master the profession of a system administrator. I will leave the link in the description. Don't forget to subscribe!
+
+[04:12] Speaker A: устройства выходящие в интернет и использующие протокол ipv4 сейчас попросту не хватает уникальных адресов Таким образом получается что любое устройство подключенное к домашнему или рабочему роутеру будет иметь и локальное IP адрес из зарезервированное сети и глобальные при обращение в сеть Интернет
+
+[04:28] Speaker A: In the early 1990s, the scale of the disaster became obvious, and between 1992 and 1996, a new version of the protocol called IPv6 was developed. The updated protocol could provide up to 300 million unique IP addresses for every inhabitant of the planet.
+
+[04:42] Speaker A: места Итак статический над для примера возьмём вот такую схему допустим Наш компьютер имеет локальный IP адрес 192 168 13 и мы отправляем запрос на веб-ресурс с адресом 173 194 67 102 но как мы уже знаем маршрутизация сетей из
+
+[04:58] Speaker A: It seemed like a victory, the problem was solved, and we could breathe out. Yes, yes, but no. At that time, the transition to IPv6 was expected to be a long and costly process, so NAT became a temporary solution. And as we all know, there is nothing more permanent than temporary. That is how NAT firmly entered the infrastructure.
+
+[05:13] Speaker A: внутренней сети 19216811 он же LAN и один для внешней 67 21 971 он же One далее наш роутер изменяет заголовок полученного IP пакета он подменяет внутренний адрес компьютера на свой внешний разумеется это соответствие он добавляет в свою таблицу
+
+[05:29] Speaker A: Network Address Translation, or NAT, is a method in which one or several local IP addresses are translated into one or several global ones. At first glance, this may sound confusing, but don't worry, I will explain everything now.
+
+[05:42] Speaker A: сверяет со своей таблицы на находит Что для данного внешнего адреса есть соответствие с локальным 192 1668 и 1.3 и пересылает IP пакет ему заменяя в заголовке свой внешний адрес на внутренний адрес компьютера при статическом nad каждому внутреннему адресу соответствует один постоянный
+
+[05:58] Speaker A: Look, right now, the device you are watching this video on is most likely connected to a local network and logically has a local IP address. Local addresses belong to the class of reserved networks and look like this.
+
+[06:42] Speaker A: такой тип на не решает проблему исчерпания IP адресов поскольку для каждого локального адреса всё равно используется один глобальный Выгода в таком случае пожалуй больше экономическая так как динамический над избавляет от необходимости оплачивать IP адрес для каждого устройства и
+
+[06:55] Speaker A: According to international standards RFC 1918 and 1597, this class of networks can only be used to build local network infrastructures, whether it is a small office network, a large enterprise, or a home network. That means Internet providers cannot use addresses from these ranges as global addresses.
+
+[07:10] Speaker A: один IP адрес и 65.536 сетевых портов про эти порты Мы уже рассказывали в ролике про VPN протоколы ссылку с таймкодом я оставлю внизу под видео Напоминаю что если вы хотите детально изучить тему IP адресации портов над и всего что связано
+
+[07:24] Speaker A: But to access any web resource on the global network, your device needs to get an address that is already global or public. Here is an example. All these manipulations are related to the exhaustion of IP addresses.
+
+[07:39] Speaker A: позволяет нескольким локальным ip-10 и назначает локальным устройством один глобальный адрес но при этом он меняет номера портов получается что пад маршрутизатор может выпустить В интернет почти 65500 устройств публичный работать разные на практике Разумеется не 65.536 устройств А меньше поскольку есть
+
+[08:05] Speaker A: There are simply not enough unique addresses for all devices connected to the Internet and using the IPv4 protocol. Thus, any device connected to a home or work router will have both a local IP address from the reserved network and a global one when accessing the Internet.
+
+[08:19] Speaker A: стало понятно Как это работает здесь уже со всех трёх локальных IP адресов отправлены пакеты на внешний сервер при выходе в Интернет все Хосты имеют один глобальный адрес но разные порты в нашем случа случа это 1443 1444 и 1445
+
+[08:33] Speaker A: This mechanism is essentially the result of NAT technology. Now, let's take a closer look at how it works. First, you need to remember that there are three types of NAT translation: static, dynamic, and overloaded. We will analyze each one, and everything will fall into place.
+
+[08:48] Speaker A: Вполне может послужить заглушкой до полного перехода на протокол ipv6 Ну что ж теперь мы можем подвести итоги на А конкретнее один из её типов пад действительно позволяет решить по крайней мере на текущий момент проблему из черпания IP адресов Это очевидный
+
+[09:02] Speaker A: So, static NAT. For example, let's take this scheme. Suppose our computer has a local IP address 192.168.1.3, and we send a request to a web resource with the address 173.194.67.102. But as we already know, routing networks from the 192.168 range on the Internet is prohibited.
+
+[09:17] Speaker A: у вас на даче это тоже неоспоримое достоинство технологии но всё же над не лишена недостатков и первый минус скорее концептуальный ведь изначально архитектура IP подразумевала что каждый идентифицировать строго один хост в мире также в качестве недостатка можно добавить что некоторые приложения могут
+
+[09:35] Speaker A: Therefore, the first thing our IP packet addressed to the external resource does is reach the router with NAT functionality. It has connections to both the local network and the global one. This connection is implemented through so-called network interfaces: one for the internal network 192.168.1.1, also called LAN, and one for the external 67.21.97.1, also called WAN.
+
+[10:08] Speaker A: решения если конечно этого очень сильно захотеть А для тех кто хочет лучше изучить сетевые технологии и освоить профессию системного администратора У нас есть бесплатные полезные материалы которые вы можете получить По ссылкам в описании к этому ролику переходите и
+
+[10:21] Speaker A: Next, our router changes the header of the received IP packet. It replaces the internal address of the computer with its external one. Of course, it adds this correspondence to its NAT table to know what and from whom was sent. After that, the router sends the IP packet to the recipient in the global network.

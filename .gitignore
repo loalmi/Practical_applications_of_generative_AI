@@ -1,0 +1,23 @@
+.DS_Store
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# env
+.env
+
+
+# Большие файлы данных (если не используете LFS)
+*.dta
+*.sav
+*.csv
+*.xlsx
+*.zip
+*.tar.gz

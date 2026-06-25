@@ -1,0 +1,9 @@
+{
+  "prompt_tokens": 78040,
+  "completion_tokens": 8104,
+  "total_tokens": 86144,
+  "prompt_cost_usd": 0.001095,
+  "completion_cost_usd": 0.000229,
+  "total_cost_usd": 0.0013170000000000002,
+  "elapsed_time_seconds": 171.4
+}

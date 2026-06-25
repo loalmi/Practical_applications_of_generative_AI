@@ -1,0 +1,149 @@
+[00:01] Speaker A: Hello everyone. Imagine a situation. You spend a month of sleepless nights with liters of strong coffee working on your thesis or a crucial annual report. You save it, and the next day your hard drive cosplays the first president of Russia, declares that it is a bug, and leaves you.
+
+[00:15] Speaker A: If anything, in reality, Yeltsin said the words: "I am leaving. I have done all I could. I am leaving."
+
+[00:26] Speaker A: And such a misconception is considered one of the examples of the widespread Mandela Effect. If you're interested, I recommend googling this effect. You will be very surprised. So, your hard drive waves goodbye and no longer boots.
+
+[00:38] Speaker A: A familiar situation. In my personal experience, there have been so many such incidents that it would be enough for a whole series with a plot more intense than Game of Thrones. To those who have not faced this, I sincerely envy you and mentally shake your hand.
+
+[00:50] Speaker A: Oh, congratulations, of course, to them, but not wholeheartedly. By the way, write in the comments which document or important file you lost and how you eventually resolved the situation. I am sure that collective experience can be very useful to someone. Yes, losing information in the modern world is a disaster.
+
+[01:07] Speaker A: Losing important information is a tragedy. Irrecoverable loss of important information is nothing less than a digital apocalypse. Oh, disaster, disaster, distress. But all this nightmare can be avoided with the help of special technologies and devices, which we will talk about today. Let's start with a technology called RAID, which helps significantly increase data storage reliability.
+
+[01:26] Speaker A: In the late 1980s, a group of researchers from the University of California, Berkeley, faced a problem. The fact is that at that time, quite powerful processors were already being produced, but hard drives could not keep up with this performance race. As they say, where there is a problem, there is a solution. And in 1987, David Patterson, Garth Gibson, and Randy Katz proposed using many inexpensive hard drives instead of one expensive one.
+
+[01:41] Speaker A: Therefore, originally the abbreviation RAID stood for Redundant Array of Inexpensive Disks, meaning a redundant array of inexpensive disks. Later, expensive server disks began to be used in arrays, and in the abbreviation RAID, the word "inexpensive" was replaced with "independent," meaning independent. Thus, the current expansion of RAID is Redundant Array of Independent Disks.
+
+[02:00] Speaker A: The first RAID implementations were often software-based and quite slow, but the technology quickly evolved, and specialized controllers appeared to assemble disk arrays not only at the hardware level but also to create various configurations of such arrays. Moreover, equipment manufacturers began to offer ready-made solutions for enterprises. By the mid-1990s, RAID had de facto become the standard for server systems. It remains so to this day.
+
+[02:19] Speaker A: I remind you that if you want to better understand computer technologies or master the in-demand profession of a system administrator, we have prepared a free mini-course and many useful materials especially for you. In the mini-course, you will learn more about the sysadmin profession, what they do at work, and how much they earn at different career stages.
+
+[02:35] Speaker A: And in the practical part of this mini-course, you will be able to set up your own web server step by step. As usual, all materials will be available in the description of this video. Follow the links below and hurry while we are giving this away for free.
+
+[02:49] Speaker A: You all probably know that all information on a PC is stored on a hard drive one way or another.
+
+[02:59] Speaker A: I use the phrase "hard drive" in this context as any information carrier intended for its permanent storage and regular read-write operations. We specifically do not include flash drives in this context, or you will start your comment wars there, I know you. It can be a classic hard drive with mechanical elements inside or a modern and fast SSD available in various form factors.
+
+[03:11] Speaker A: Our computers can have two, three, four, or as many as your heart desires. The main thing is that there is enough space in the PC case for them. So, the technology helps combine these drives so that they work as one super drive. And this is needed not only for read-write speed but also, of course, to increase their reliability.
+
+[03:25] Speaker A: To get one or the other or both at the same time, RAID configurations are divided into levels, for example, RAID level zero or RAID 0, also called striping, and to implement such an array, at least two disks are used. When writing, information is split into blocks of equal size and written simultaneously to both disks, but there can be more disks.
+
+[03:39] Speaker A: Accordingly, the read and write speed with this method also increases proportionally to the number of disks. That is, the more disks in the array, the more productive such RAID is. But there is a significant downside. If one of the disks fails, it means a complete loss of information because the data is stored in a broken-up form across the disks.
+
+[03:53] Speaker A: When reliability is more important than speed, you can use a RAID level 1 array. This method is also called mirroring, and at least two disks are used to implement it. Here, when writing, data is copied simultaneously to both disks. That is, if one fails, the data is fully preserved on the second. But because the disks are essentially clones of each other, the available storage for writing is the size of one disk.
+
+[04:08] Speaker A: So, you pay double the price per gigabyte of memory. This is, of course, a significant downside, but what can you do if you want both speed and reliability? For this, there is a hybrid level RAID 10. This array combines the high speed of RAID 0 and the reliability of RAID 1. To build it, you need at least four disks.
+
+[04:21] Speaker A: Structurally, it looks like two RAID 1 arrays combined into one RAID 0 array. In such a hybrid array, the failure of two disks is allowed, one from each mirror. There will be no data loss. The only downside is the cost, which will be quite off-putting, especially if you use large-capacity disks.
+
+[04:36] Speaker A: And for another example of combining speed and reliability, let's consider RAID 5. To build it, you need at least three disks. Its principle is based on splitting data into blocks and distributing them across all disks in the array.
+
+[04:47] Speaker A: The main feature of RAID 5 is the presence of so-called parity, a special checksum for data recovery. Essentially, it is like a fingerprint for each file that helps calculate data on a damaged disk. Now we will look at the RAID 5 operation scheme to make it clearer.
+
+[05:01] Speaker A: Imagine that in such an array you have three identical disks: disk 1, disk 2, and disk 3. And you need to write some file. When writing this file to the array, the process will look as follows. First, the file will be split into 2, 3, 5, or more blocks. Here, the exact number does not matter. The main thing is the fact of splitting the file into parts.
+
+[05:13] Speaker A: Then the first block will be written to disk 1, block 2 will be moved to disk 2. The parity of these blocks, our checksum, will be written to disk 3.
+
+[05:21] Speaker A: The next blocks of information will be written as follows: parity will move to disk 2, then to disk 1, and so on in a circle.
+
+[05:33] Speaker A: Why all this? The fact is that disks exchange pieces of data with each other. And when one of them fails, the other disks can restore the information like a puzzle. But there is also a downside to such an array. The recovery procedure is very slow. It can take hours or even days if you use large-capacity disks.
+
+[05:49] Speaker A: And one more nuance. When one disk fails, the recovery of data blocks occurs from other disks, which heavily loads them and, as a result, significantly increases the likelihood of their failure. To avoid such situations, RAID 5 supports Hot Spare technology, that is, a hot reserve. Its essence is that instead of the failed disk, a disk from the reserve is added to the array and the recovery procedure starts immediately, usually automatically.
+
+[06:00] Speaker A: Most often, RAID 5 is used where data loss is critical but the budget is limited. For example,
+
+[06:07] Speaker A: Затем первый блок запишется на диск один, блок 2 перенесётся на диск 2. Отчётность этих блоков, а наша контрольная сумма, запишется на диск 3.
+
+[06:15] Speaker A: Следующие блоки информации запишутся так: чётность переместится на диск 2, потом на диск О и так далее по кругу.
+
+[06:21] Speaker A: Зачем всё это? Дело в том, что диски передают друг другу кусочки данных. И когда один из них выходит из строя, остальные диски могут восстановить информацию как пазл. Но в этом кроется и минус такого массива. Процедура восстановления очень неторопливая. Она
+
+[06:35] Speaker A: может занимать часы или даже дни, если вы используете диски большого объёма. И ещё один нюанс. Когда один из дисков выходит из строя, восстановление блоков данных происходит с других дисков, что сильно их накружает и, как следствие, существенно повышает вероятность выхода
+
+[06:48] Speaker A: их из строя. Для исключения подобных ситуаций Rй 5 поддерживает технологию Hot Spare, то есть горячего резерва. Её суть в том, что вместо вышедшего из строя диска в массив добавляется диск из резерва и сразу же запускается процедура восстановления, как правило,
+
+[07:01] Speaker A: автоматически. Чаще всего R5 используют там, где потеря данных критична, но бюджет ограничен. Например, в файловых серверах небольших компаний или в домашних нахранилищах. Кстати, ещё больше полезной информации на эту тему вы можете найти в нашем Telegram-канале, так что присоединяйтесь к сообществу
+
+[07:16] Speaker A: единомышленников по ссылке в описании или отсканировав QR-код на экране. Вообще, история развития нас начиналась ещё в далёком 1980 году. Именно тогда Брайан Рендл и его коллеги из Нюкасвского университета впервые разработали удалённый доступ к файлам между несколькими машинами на Unix. Это
+
+[07:31] Speaker A: был безусловный прорыв. Но, конечно, с тех пор развивались как протоколы для удалённого доступа к файлам, так и операционные системы. А что же такое НАЗ? Пришло время поговорить об этом.
+
+[07:41] Speaker A: Если переводить аббревиатуру, то дословно получается, что НАСА - это хранилище, подключённое к сети. Представьте, что ваш жёсткий диск женился на роутере и у них родился умный ребёнок, который умеет раздавать файлы всей семье. Вот это и есть нас. То есть,
+
+[07:54] Speaker A: по сути, это мини-сервер, подключенный к вашей локальной сети. Он может хранить фото, видео, документы. Иначе говоря, любой нужный вам контент, и у вас есть доступ к этим данным с любого устройства подключено к этой же сети, будь то ноутбук, планшет или SmartТВ. НАС
+
+[08:09] Speaker A: работает автономно. Ему не нужен компьютер, чтобы раздавать данные. Фактически это персональное облако у вас в офисе или дома. Физически нас - это коробочка, внутри которой есть процессор, оперативка и жёсткие диски, на которых всё хранится. И управляется всё это добро своей собственной
+
+[08:24] Speaker A: операционной системой. Самые популярные решения на рынке представлены от компании Syology и QNA. Безусловное достоинство у нас в том, что благодаря наличию собственной операционной системы можно гибко настраивать управление доступом к данным и разграничения прав.
+
+[08:36] Speaker A: При этом интерфейс операционки, как правило, максимально дружелюбный и интуитивно понятный. Нас легко интегрируется в простую сетевую инфраструктуру, в том числе позволяя организовывать лёгкий доступ к документам из любой точки мира. Из приятных плюшек можно перечислить встроенный торнклиент и медиасервер.
+
+[08:51] Speaker A: Простыми словами, вы можете скачать какой-нибудь увесистый дистрибутив или фильм сразу на нас и раздать всем устройствам в локальной сети. быстро, легко и удобно. И ещё куча самых разных приложений, которые можно установить в сетевое хранилище. Но основная функция нас всё же сохранность файлов, поэтому
+
+[09:07] Speaker A: даже самые простые модели имеют как минимум два жёстких диска, объединённых в рей. У моделей подороже уже может быть с десяток дисков, и их объединяет в комбинированные уровни RID 10, RID 50 или Rй 60. Резюмируя, нас - это отличное
+
+[09:21] Speaker A: решение для дома, ну или максимум для небольшого офиса. Это как ваш личный дворецкий, только для данных, которые всегда под рукой. никогда не спорит и не теряет файлы. Чтобы не переживать, что диск подёт смертью храбрых, выбирайте нас. Ну что ж, с простыми решениями для
+
+[09:34] Speaker A: хранения данных мы разобрались, но как быть ребятам, которые покруче, покрупнее и побогаче? У кого количество пользователей давно перевалилось за сотню, и каждому из них нужно поглощать гигабайты корпоративных данных. Здесь, разумеется, тоже есть решение, которое называется SХD или система хранения
+
+[09:50] Speaker A: данных. По сути, это те же самые НАС, но только гораздо более навороченные и вмещающие уже по 30-40 дисков. Как правило, они имеют рековое исполнение.
+
+[09:59] Speaker A: Профессиональный жаргон рековый происходит от слова rec mounted в переводе стоечный, то есть они предназначены для монтажа в серверную стойку. Внешне СХД можно даже спутать с обычным сервером. Однако, несмотря на наличие процессора и памяти, назначение у SD принципиально иное. В первую
+
+[10:14] Speaker A: очередь надёжно хранить много информации. Именно поэтому у SD на борту есть рейд-контроллер, который собирает массивы на аппаратном уровне. Также СХД оснащены встроенными механизмами защиты информации. Среди них зеркалирование, шифрование и многоуровневое резервирование. Важную роль играет функция горячей замены комплектующих.
+
+[10:32] Speaker A: Это значит, что можно менять диски, блоки питания и даже контроллеры без остановки всей системы. SD легко масштабируется, что позволяет наращивать объёмы памяти по мере роста потребностей. Кстати, о масштабируемости. Иногда для SХD подключают так называемые дисковые полки. У них нет собственного процессора
+
+[10:48] Speaker A: и памяти. Нужны дисковые полки только для расширения, чтобы не покупать новый сервер или SХD. До недавнего времени самыми популярными в области SD оставались решения от HP, IBM и Dell.
+
+[10:58] Speaker A: Сейчас всё это тоже доступно, но, так сказать, с нюансами. Из отечественных вендеров популярная Aquвариус UTNET и QT. Но что делать, когда данных очень много и нужна высокая скорость? И когда я говорю многое, я имею в виду реально многое. Десятки и сотни тысяч терабайт.
+
+[11:13] Speaker A: Например, вы обмените крупную компанию на несколько тысяч сотрудников или целый дата-центр, а там только один машинный зал может вмещать до сотни стоек, которые могут быть забиты сетевыми хранилищами. В таком случае в дело вступают SAN или сети хранения данных.
+
+[11:27] Speaker A: Сама по себе SAN не хранит данные. Это просто высокоскоростная сеть, причём очень и очень высокоскоростная, так как в дата-центрах используются специальные оптические каналы Fiber Channel.
+
+[11:37] Speaker A: Скорость передачи данных по таким каналам может достигать 128 Гби в секунду. Эта сеть подключает серверы к системам хранения данных. Среди них могут быть уже знакомые нам нас и рейдмассивы. В отличие от нас, Sun работает на уровне блоков, а не файлов.
+
+[11:51] Speaker A: Давайте представим, что Sun - это суперскоростная магистраль, которая позволяет серверам обращаться к дисковому пространству на удалённых SХD как своему локальному хранилищу.
+
+[12:00] Speaker A: Хранилище Sun разбивается на логические разделы, а ниже Lun Logical Unit Number. Условный сервер видит Lun как отдельный виртуальный диск. Системный администратор назначает каждый лун конкретному серверу или группе серверов в зависимости от потребностей и задач. И данный на лон хранятся не как готовые
+
+[12:16] Speaker A: документы или папки, а как набор пронумерованных кирпичиков, то есть блоков фиксированного размера, например, по 512 байт или 4 Кб. Когда какому-то серверу нужны данные из этого хранилища, он не просит: "Дай мне файл отчёт.dc".
+
+[12:29] Speaker A: Вместо этого он говорит сам: "Дай мне блоки с такими-то номерами", например, 1057, 1058, 1059 и 2044. И Сан просто передаёт эти сырые кирпичики данных серверу. Далее уже сам сервер знает, как сложить из этих блоков нужный файл или, например, часть базы данных. То есть сам
+
+[12:45] Speaker A: не разбирается, что это за данные, файл, база или программа. Он всего лишь знает, где лежат нужные блоки, и быстро их отдаёт по запросу. Сложновато? Сейчас разберём простой пример, и всё встанет на свои места. Допустим, у вас на сервере крутится база данных Oracle, а
+
+[12:58] Speaker A: сам сервер подключен к Sun. Что же происходит под капотом такой структуры? Шаг первый. Сервер отправляет запрос на запись данных. Через свою операционную систему он готовит команду: "Эй, хранилище, запиши вот эти данные в блоке под номерами 1057, 1058 и 1059 на моём
+
+[13:15] Speaker A: виртуальном диске, он же Лун". Шаг второй. Сан принимает от сервера команду в виде записать блоки X YZ, забирает указанные блоки данных и очень быстро и надёжно доставляет их прямиком до контроллеров системы хранения данных. О, на же SХD. Шаг третий. SD сохраняет
+
+[13:30] Speaker A: данные в виде блоков на рейдмассиве, например, RID 10. Далее всё отлично работает, но потом вдруг случается сбой.
+
+[13:37] Speaker A: И тогда происходит следующее. Рейд массив выполняет процедуру автоматического восстановления данных с зеркало. При этом ваш сервер с базой данных продолжает работать, как ни в чём не бывало, а вы великолепны. То есть, да, всё происходит буквально на лету и с
+
+[13:49] Speaker A: точки зрения доступности вашего сервиса вы даже не заметите простое в его работе. Получается, что преимущества использования SAN вполне очевидны. В первую очередь это, конечно же, скорость передачи данных. Благодаря семейству протоколов Fiber Channel серверы и системы хранения данных могут стабильно,
+
+[14:04] Speaker A: быстро и надёжно обмениваться информацией. Второе, это невероятно высокая отказоустойчивость. Данные хранятся не на одном насреймассиваме, они хранятся в целой сети сетевых хранилищ, а те могут располагаться не то, что в разных стойках, а в разных цодах, да и вообще в разных частях
+
+[14:19] Speaker A: страны. И, наконец, это лёгкая масштабируемость. Вы можете добавлять новые диски и устройства без нарушения работы существующей системы. При этом главный минус Sun также на поверхности.
+
+[14:29] Speaker A: Это баснословная дороговизна такой технологии. Но тут ничего не поделаешь. Стабильность и скорость стоит дорого, и за это надо платить. Поэтому SAN остаётся уделом ЦОДов, банков и крупных корпораций, таких как Microsoft, Google и им подобные. Ну что ж, настало время
+
+[14:44] Speaker A: подвести итоги. Чтобы ваши данные танцевали в синхронном танце, позаботьтесь о рымассивах. У каждого диска должно быть зеркало с копией, а в некоторых случаях и с копией. Копией.
+
+[14:54] Speaker A: Это абсолютный must мастхв для построения любой системы хранения данных. от небольшой хранилки у вас дома до гигантских цодов. Вопрос только в том, сколько вы готовы на это потратить.
+
+[15:03] Speaker A: Нас это база. Два жёстких диска у вас в компьютере - это хорошо, а два жёстких диска, которые живут в персональном домике у вас в сети- ещё лучше. А что делать, если нас не умещается даже в одном помещении? Да и скорость имеет
+
+[15:16] Speaker A: такое же критическое значение, как и надёжность. Тогда на помощь приходит Сан. Это не просто хранилка данных, это целые сети для данных enterprise сегмента. Серверы подключаются к хранилищу через высокоскоростные протоколы, получая доступы к блокам данных напрямую. Это обеспечивает и
+
+[15:32] Speaker A: скорость, и надёжность. Система хранения - это фундамент цифрового мира. Без них не было бы ни онлайн-банкинга, ни Ютуба, ни даже ваши любимые онлайн-игры. Они работают незаметно, как бойцы невидимого фронта. Но если их вырубить, весь интернет превратится в цифровую пустыню.
+
+[15:52] Speaker A: Так что при сохранении файлов мысленно скажите спасибо инженерам, которые придумали эти мегахранилища. Не забывайте, что умение правильно выстроить систему хранения и восстановления данных - это один из важнейших навыков Сисадмина. А для того, чтобы им стать, вам достаточно заглянуть
+
+[16:06] Speaker A: в описание к этому ролику. Там мы оставили всё необходимое, чтобы вы могли сделать свой первый шаг в IT профессии.
+
+[16:11] Speaker A: А пока подписывайтесь и ставьте колокольчик, чтобы не пропустить наши новые выпуски. И не забывайте писать комментарии, они помогают нам расти и создавать качественный контент для вас.
+
+[16:20] Speaker A: Надёжного хранения вам данных и до скорых встреч.

@@ -1,0 +1,852 @@
+[
+  {
+    "id": "P_001",
+    "demographics": {
+      "gender": "Женский",
+      "age": 73,
+      "education": "Высшее и выше",
+      "region": 45,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": false,
+      "life_satisfaction": 2
+    },
+    "health": {
+      "self_health": 4
+    }
+  },
+  {
+    "id": "P_002",
+    "demographics": {
+      "gender": "Женский",
+      "age": 50,
+      "education": "Среднее специальное",
+      "region": 138,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": true,
+      "life_satisfaction": 3
+    },
+    "health": {
+      "self_health": 3
+    }
+  },
+  {
+    "id": "P_003",
+    "demographics": {
+      "gender": "Женский",
+      "age": 67,
+      "education": "Неполное среднее",
+      "region": 33,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": false,
+      "life_satisfaction": 2
+    },
+    "health": {
+      "self_health": 4
+    }
+  },
+  {
+    "id": "P_004",
+    "demographics": {
+      "gender": "Женский",
+      "age": 15,
+      "education": "Неполное среднее",
+      "region": 45,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": false,
+      "life_satisfaction": 2
+    },
+    "health": {
+      "self_health": 2
+    }
+  },
+  {
+    "id": "P_005",
+    "demographics": {
+      "gender": "Мужской",
+      "age": 39,
+      "education": "Среднее специальное",
+      "region": 137,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": true,
+      "life_satisfaction": 3
+    },
+    "health": {
+      "self_health": 3
+    }
+  },
+  {
+    "id": "P_006",
+    "demographics": {
+      "gender": "Женский",
+      "age": 46,
+      "education": "Высшее и выше",
+      "region": 138,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": true,
+      "life_satisfaction": 2
+    },
+    "health": {
+      "self_health": 2
+    }
+  },
+  {
+    "id": "P_007",
+    "demographics": {
+      "gender": "Женский",
+      "age": 73,
+      "education": "Среднее",
+      "region": 105,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": false,
+      "life_satisfaction": 4
+    },
+    "health": {
+      "self_health": 3
+    }
+  },
+  {
+    "id": "P_008",
+    "demographics": {
+      "gender": "Женский",
+      "age": 66,
+      "education": "Среднее специальное",
+      "region": 92,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": false,
+      "life_satisfaction": 2
+    },
+    "health": {
+      "self_health": 4
+    }
+  },
+  {
+    "id": "P_009",
+    "demographics": {
+      "gender": "Мужской",
+      "age": 34,
+      "education": "Среднее специальное",
+      "region": 137,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": true,
+      "life_satisfaction": 1
+    },
+    "health": {
+      "self_health": 1
+    }
+  },
+  {
+    "id": "P_010",
+    "demographics": {
+      "gender": "Мужской",
+      "age": 22,
+      "education": "Среднее специальное",
+      "region": 67,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": true,
+      "life_satisfaction": 2
+    },
+    "health": {
+      "self_health": 2
+    }
+  },
+  {
+    "id": "P_011",
+    "demographics": {
+      "gender": "Женский",
+      "age": 32,
+      "education": "Высшее и выше",
+      "region": 138,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": true,
+      "life_satisfaction": 2
+    },
+    "health": {
+      "self_health": 2
+    }
+  },
+  {
+    "id": "P_012",
+    "demographics": {
+      "gender": "Женский",
+      "age": 80,
+      "education": "Высшее и выше",
+      "region": 138,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": false,
+      "life_satisfaction": 3
+    },
+    "health": {
+      "self_health": 4
+    }
+  },
+  {
+    "id": "P_013",
+    "demographics": {
+      "gender": "Мужской",
+      "age": 27,
+      "education": "Высшее",
+      "region": 92,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": true,
+      "life_satisfaction": 2
+    },
+    "health": {
+      "self_health": 3
+    }
+  },
+  {
+    "id": "P_014",
+    "demographics": {
+      "gender": "Женский",
+      "age": 64,
+      "education": "Среднее специальное",
+      "region": 39,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": false,
+      "life_satisfaction": 2
+    },
+    "health": {
+      "self_health": 3
+    }
+  },
+  {
+    "id": "P_015",
+    "demographics": {
+      "gender": "Мужской",
+      "age": 44,
+      "education": "Среднее специальное",
+      "region": 200,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": true,
+      "life_satisfaction": 2
+    },
+    "health": {
+      "self_health": 2
+    }
+  },
+  {
+    "id": "P_016",
+    "demographics": {
+      "gender": "Женский",
+      "age": 30,
+      "education": "Высшее и выше",
+      "region": 100,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": true,
+      "life_satisfaction": 2
+    },
+    "health": {
+      "self_health": 3
+    }
+  },
+  {
+    "id": "P_017",
+    "demographics": {
+      "gender": "Мужской",
+      "age": 27,
+      "education": "Среднее специальное",
+      "region": 1,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": true,
+      "life_satisfaction": 2
+    },
+    "health": {
+      "self_health": 3
+    }
+  },
+  {
+    "id": "P_018",
+    "demographics": {
+      "gender": "Мужской",
+      "age": 62,
+      "education": "Среднее специальное",
+      "region": 48,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": false,
+      "life_satisfaction": 5
+    },
+    "health": {
+      "self_health": 4
+    }
+  },
+  {
+    "id": "P_019",
+    "demographics": {
+      "gender": "Женский",
+      "age": 89,
+      "education": "Неполное среднее",
+      "region": 48,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": false,
+      "life_satisfaction": 2
+    },
+    "health": {
+      "self_health": 4
+    }
+  },
+  {
+    "id": "P_020",
+    "demographics": {
+      "gender": "Женский",
+      "age": 61,
+      "education": "Высшее",
+      "region": 161,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": false,
+      "life_satisfaction": 3
+    },
+    "health": {
+      "self_health": 3
+    }
+  },
+  {
+    "id": "P_021",
+    "demographics": {
+      "gender": "Мужской",
+      "age": 37,
+      "education": "Высшее и выше",
+      "region": 72,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": true,
+      "life_satisfaction": 3
+    },
+    "health": {
+      "self_health": 2
+    }
+  },
+  {
+    "id": "P_022",
+    "demographics": {
+      "gender": "Женский",
+      "age": 62,
+      "education": "Среднее специальное",
+      "region": 12,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": false,
+      "life_satisfaction": 2
+    },
+    "health": {
+      "self_health": 4
+    }
+  },
+  {
+    "id": "P_023",
+    "demographics": {
+      "gender": "Женский",
+      "age": 31,
+      "education": "Высшее",
+      "region": 77,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": true,
+      "life_satisfaction": 1
+    },
+    "health": {
+      "self_health": 2
+    }
+  },
+  {
+    "id": "P_024",
+    "demographics": {
+      "gender": "Женский",
+      "age": 43,
+      "education": "Высшее и выше",
+      "region": 100,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": true,
+      "life_satisfaction": 3
+    },
+    "health": {
+      "self_health": 3
+    }
+  },
+  {
+    "id": "P_025",
+    "demographics": {
+      "gender": "Женский",
+      "age": 56,
+      "education": "Среднее специальное",
+      "region": 93,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": true,
+      "life_satisfaction": 2
+    },
+    "health": {
+      "self_health": 3
+    }
+  },
+  {
+    "id": "P_026",
+    "demographics": {
+      "gender": "Женский",
+      "age": 39,
+      "education": "Высшее",
+      "region": 47,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": true,
+      "life_satisfaction": 1
+    },
+    "health": {
+      "self_health": 1
+    }
+  },
+  {
+    "id": "P_027",
+    "demographics": {
+      "gender": "Мужской",
+      "age": 22,
+      "education": "Среднее специальное",
+      "region": 129,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": false,
+      "life_satisfaction": 2
+    },
+    "health": {
+      "self_health": 2
+    }
+  },
+  {
+    "id": "P_028",
+    "demographics": {
+      "gender": "Женский",
+      "age": 55,
+      "education": "Высшее и выше",
+      "region": 142,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": true,
+      "life_satisfaction": 2
+    },
+    "health": {
+      "self_health": 2
+    }
+  },
+  {
+    "id": "P_029",
+    "demographics": {
+      "gender": "Женский",
+      "age": 59,
+      "education": "Среднее специальное",
+      "region": 136,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": false,
+      "life_satisfaction": 2
+    },
+    "health": {
+      "self_health": 4
+    }
+  },
+  {
+    "id": "P_030",
+    "demographics": {
+      "gender": "Мужской",
+      "age": 28,
+      "education": "Высшее и выше",
+      "region": 138,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": true,
+      "life_satisfaction": 1
+    },
+    "health": {
+      "self_health": 2
+    }
+  },
+  {
+    "id": "P_031",
+    "demographics": {
+      "gender": "Женский",
+      "age": 56,
+      "education": "Высшее и выше",
+      "region": 142,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": true,
+      "life_satisfaction": 4
+    },
+    "health": {
+      "self_health": 2
+    }
+  },
+  {
+    "id": "P_032",
+    "demographics": {
+      "gender": "Женский",
+      "age": 50,
+      "education": "Среднее специальное",
+      "region": 137,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": false,
+      "life_satisfaction": 4
+    },
+    "health": {
+      "self_health": 3
+    }
+  },
+  {
+    "id": "P_033",
+    "demographics": {
+      "gender": "Мужской",
+      "age": 25,
+      "education": "Высшее",
+      "region": 136,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": true,
+      "life_satisfaction": 3
+    },
+    "health": {
+      "self_health": 3
+    }
+  },
+  {
+    "id": "P_034",
+    "demographics": {
+      "gender": "Женский",
+      "age": 87,
+      "education": "Неполное среднее",
+      "region": 138,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": false,
+      "life_satisfaction": 3
+    },
+    "health": {
+      "self_health": 3
+    }
+  },
+  {
+    "id": "P_035",
+    "demographics": {
+      "gender": "Женский",
+      "age": 44,
+      "education": "Высшее и выше",
+      "region": 71,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": true,
+      "life_satisfaction": 3
+    },
+    "health": {
+      "self_health": 3
+    }
+  },
+  {
+    "id": "P_036",
+    "demographics": {
+      "gender": "Женский",
+      "age": 14,
+      "education": "Неполное среднее",
+      "region": 129,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": false,
+      "life_satisfaction": 2
+    },
+    "health": {
+      "self_health": 2
+    }
+  },
+  {
+    "id": "P_037",
+    "demographics": {
+      "gender": "Женский",
+      "age": 52,
+      "education": "Среднее специальное",
+      "region": 161,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": true,
+      "life_satisfaction": 1
+    },
+    "health": {
+      "self_health": 2
+    }
+  },
+  {
+    "id": "P_038",
+    "demographics": {
+      "gender": "Женский",
+      "age": 67,
+      "education": "Среднее специальное",
+      "region": 138,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": false,
+      "life_satisfaction": 3
+    },
+    "health": {
+      "self_health": 3
+    }
+  },
+  {
+    "id": "P_039",
+    "demographics": {
+      "gender": "Мужской",
+      "age": 21,
+      "education": "Высшее",
+      "region": 138,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": false,
+      "life_satisfaction": 2
+    },
+    "health": {
+      "self_health": 1
+    }
+  },
+  {
+    "id": "P_040",
+    "demographics": {
+      "gender": "Мужской",
+      "age": 51,
+      "education": "Высшее",
+      "region": 46,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": true,
+      "life_satisfaction": 2
+    },
+    "health": {
+      "self_health": 2
+    }
+  },
+  {
+    "id": "P_041",
+    "demographics": {
+      "gender": "Женский",
+      "age": 46,
+      "education": "Высшее и выше",
+      "region": 117,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": true,
+      "life_satisfaction": 1
+    },
+    "health": {
+      "self_health": 2
+    }
+  },
+  {
+    "id": "P_042",
+    "demographics": {
+      "gender": "Мужской",
+      "age": 19,
+      "education": "Высшее",
+      "region": 10,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": false,
+      "life_satisfaction": 2
+    },
+    "health": {
+      "self_health": 3
+    }
+  },
+  {
+    "id": "P_043",
+    "demographics": {
+      "gender": "Женский",
+      "age": 34,
+      "education": "Среднее специальное",
+      "region": 9,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": true,
+      "life_satisfaction": 2
+    },
+    "health": {
+      "self_health": 2
+    }
+  },
+  {
+    "id": "P_044",
+    "demographics": {
+      "gender": "Мужской",
+      "age": 44,
+      "education": "Среднее специальное",
+      "region": 200,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": true,
+      "life_satisfaction": 2
+    },
+    "health": {
+      "self_health": 2
+    }
+  },
+  {
+    "id": "P_045",
+    "demographics": {
+      "gender": "Женский",
+      "age": 49,
+      "education": "Среднее специальное",
+      "region": 141,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": true,
+      "life_satisfaction": 2
+    },
+    "health": {
+      "self_health": 2
+    }
+  },
+  {
+    "id": "P_046",
+    "demographics": {
+      "gender": "Женский",
+      "age": 66,
+      "education": "Высшее и выше",
+      "region": 138,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": false,
+      "life_satisfaction": 4
+    },
+    "health": {
+      "self_health": 3
+    }
+  },
+  {
+    "id": "P_047",
+    "demographics": {
+      "gender": "Мужской",
+      "age": 62,
+      "education": "Высшее и выше",
+      "region": 142,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": true,
+      "life_satisfaction": 3
+    },
+    "health": {
+      "self_health": 2
+    }
+  },
+  {
+    "id": "P_048",
+    "demographics": {
+      "gender": "Женский",
+      "age": 74,
+      "education": "Высшее и выше",
+      "region": 161,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": false,
+      "life_satisfaction": 4
+    },
+    "health": {
+      "self_health": 3
+    }
+  },
+  {
+    "id": "P_049",
+    "demographics": {
+      "gender": "Женский",
+      "age": 50,
+      "education": "Высшее",
+      "region": 70,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": true,
+      "life_satisfaction": 2
+    },
+    "health": {
+      "self_health": 2
+    }
+  },
+  {
+    "id": "P_050",
+    "demographics": {
+      "gender": "Женский",
+      "age": 32,
+      "education": "Высшее",
+      "region": 72,
+      "has_children": false
+    },
+    "socio_economic": {
+      "working": true,
+      "life_satisfaction": 2
+    },
+    "health": {
+      "self_health": 3
+    }
+  }
+]

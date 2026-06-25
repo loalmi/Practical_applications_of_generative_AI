@@ -1,0 +1,452 @@
+[
+  {
+    "name": "Анна Петрова",
+    "age": 34,
+    "city": "Москва",
+    "income_rub": 120000,
+    "occupation": "менеджер",
+    "shopping_frequency": "часто",
+    "preferred_category": "одежда"
+  },
+  {
+    "name": "Анна Петрова",
+    "age": 34,
+    "city": "Санкт-Петербург",
+    "income_rub": 95000,
+    "occupation": "IT-специалист",
+    "shopping_frequency": "часто",
+    "preferred_category": "электроника"
+  },
+  {
+    "name": "Екатерина Смирнова",
+    "age": 34,
+    "city": "Новосибирск",
+    "income_rub": 85000,
+    "occupation": "менеджер",
+    "shopping_frequency": "часто",
+    "preferred_category": "товары для дома"
+  },
+  {
+    "name": "Анна",
+    "age": 32,
+    "city": "Москва",
+    "income_rub": 85000,
+    "occupation": "менеджер",
+    "shopping_frequency": "часто",
+    "preferred_category": "одежда"
+  },
+  {
+    "name": "Анна Смирнова",
+    "age": 32,
+    "city": "Казань",
+    "income_rub": 85000,
+    "occupation": "менеджер",
+    "shopping_frequency": "часто",
+    "preferred_category": "косметика"
+  },
+  {
+    "name": "Анна",
+    "age": 34,
+    "city": "Казань",
+    "income_rub": 85000,
+    "occupation": "менеджер",
+    "shopping_frequency": "часто",
+    "preferred_category": "одежда"
+  },
+  {
+    "name": "Екатерина",
+    "age": 34,
+    "city": "Казань",
+    "income_rub": 85000,
+    "occupation": "менеджер",
+    "shopping_frequency": "иногда",
+    "preferred_category": "косметика"
+  },
+  {
+    "name": "Анна",
+    "age": 32,
+    "city": "Казань",
+    "income_rub": 85000,
+    "occupation": "менеджер",
+    "shopping_frequency": "часто",
+    "preferred_category": "косметика"
+  },
+  {
+    "name": "Анна",
+    "age": 28,
+    "city": "Москва",
+    "income_rub": 120000,
+    "occupation": "менеджер",
+    "shopping_frequency": "часто",
+    "preferred_category": "косметика"
+  },
+  {
+    "name": "Анна",
+    "age": 34,
+    "city": "Казань",
+    "income_rub": 95000,
+    "occupation": "врач",
+    "shopping_frequency": "часто",
+    "preferred_category": "косметика"
+  },
+  {
+    "name": "Анна",
+    "age": 29,
+    "city": "Казань",
+    "income_rub": 75000,
+    "occupation": "менеджер",
+    "shopping_frequency": "часто",
+    "preferred_category": "косметика"
+  },
+  {
+    "name": "Елена Смирнова",
+    "age": 29,
+    "city": "Москва",
+    "income_rub": 95000,
+    "occupation": "IT-специалист",
+    "shopping_frequency": "часто",
+    "preferred_category": "электроника"
+  },
+  {
+    "name": "Анна",
+    "age": 34,
+    "city": "Казань",
+    "income_rub": 85000,
+    "occupation": "менеджер",
+    "shopping_frequency": "часто",
+    "preferred_category": "одежда"
+  },
+  {
+    "name": "Анна",
+    "age": 34,
+    "city": "Москва",
+    "income_rub": 95000,
+    "occupation": "менеджер",
+    "shopping_frequency": "часто",
+    "preferred_category": "одежда"
+  },
+  {
+    "name": "Анна Петрова",
+    "age": 32,
+    "city": "Москва",
+    "income_rub": 95000,
+    "occupation": "IT-специалист",
+    "shopping_frequency": "часто",
+    "preferred_category": "электроника"
+  },
+  {
+    "name": "Елена",
+    "age": 34,
+    "city": "Москва",
+    "income_rub": 110000,
+    "occupation": "менеджер",
+    "shopping_frequency": "часто",
+    "preferred_category": "косметика"
+  },
+  {
+    "name": "Елена Смирнова",
+    "age": 34,
+    "city": "Казань",
+    "income_rub": 85000,
+    "occupation": "менеджер",
+    "shopping_frequency": "часто",
+    "preferred_category": "одежда"
+  },
+  {
+    "name": "Анна",
+    "age": 29,
+    "city": "Казань",
+    "income_rub": 75000,
+    "occupation": "IT-специалист",
+    "shopping_frequency": "часто",
+    "preferred_category": "электроника"
+  },
+  {
+    "name": "Мария Петрова",
+    "age": 34,
+    "city": "Казань",
+    "income_rub": 85000,
+    "occupation": "менеджер",
+    "shopping_frequency": "часто",
+    "preferred_category": "товары для дома"
+  },
+  {
+    "name": "Мария",
+    "age": 28,
+    "city": "Санкт-Петербург",
+    "income_rub": 85000,
+    "occupation": "IT-специалист",
+    "shopping_frequency": "часто",
+    "preferred_category": "электроника"
+  },
+  {
+    "name": "Анна",
+    "age": 30,
+    "city": "Москва",
+    "income_rub": 120000,
+    "occupation": "IT-специалист",
+    "shopping_frequency": "часто",
+    "preferred_category": "электроника"
+  },
+  {
+    "name": "Екатерина",
+    "age": 34,
+    "city": "Новосибирск",
+    "income_rub": 95000,
+    "occupation": "менеджер",
+    "shopping_frequency": "часто",
+    "preferred_category": "косметика"
+  },
+  {
+    "name": "Анна",
+    "age": 32,
+    "city": "Екатеринбург",
+    "income_rub": 85000,
+    "occupation": "IT-специалист",
+    "shopping_frequency": "часто",
+    "preferred_category": "электроника"
+  },
+  {
+    "name": "Анна",
+    "age": 34,
+    "city": "Казань",
+    "income_rub": 120000,
+    "occupation": "менеджер",
+    "shopping_frequency": "часто",
+    "preferred_category": "косметика"
+  },
+  {
+    "name": "Анна",
+    "age": 34,
+    "city": "Москва",
+    "income_rub": 95000,
+    "occupation": "менеджер",
+    "shopping_frequency": "часто",
+    "preferred_category": "косметика"
+  },
+  {
+    "name": "Алексей",
+    "age": 34,
+    "city": "Екатеринбург",
+    "income_rub": 120000,
+    "occupation": "IT-специалист",
+    "shopping_frequency": "часто",
+    "preferred_category": "электроника"
+  },
+  {
+    "name": "Анна Петрова",
+    "age": 28,
+    "city": "Казань",
+    "income_rub": 75000,
+    "occupation": "менеджер",
+    "shopping_frequency": "часто",
+    "preferred_category": "одежда"
+  },
+  {
+    "name": "Елена Соколова",
+    "age": 34,
+    "city": "Казань",
+    "income_rub": 85000,
+    "occupation": "менеджер",
+    "shopping_frequency": "часто",
+    "preferred_category": "одежда"
+  },
+  {
+    "name": "Анна Петрова",
+    "age": 34,
+    "city": "Москва",
+    "income_rub": 120000,
+    "occupation": "менеджер",
+    "shopping_frequency": "часто",
+    "preferred_category": "одежда"
+  },
+  {
+    "name": "Анна",
+    "age": 34,
+    "city": "Москва",
+    "income_rub": 120000,
+    "occupation": "менеджер",
+    "shopping_frequency": "часто",
+    "preferred_category": "одежда"
+  },
+  {
+    "name": "Анна",
+    "age": 29,
+    "city": "Москва",
+    "income_rub": 85000,
+    "occupation": "менеджер",
+    "shopping_frequency": "часто",
+    "preferred_category": "одежда"
+  },
+  {
+    "name": "Елена Петрова",
+    "age": 34,
+    "city": "Казань",
+    "income_rub": 85000,
+    "occupation": "менеджер",
+    "shopping_frequency": "часто",
+    "preferred_category": "одежда"
+  },
+  {
+    "name": "Анна",
+    "age": 29,
+    "city": "Москва",
+    "income_rub": 95000,
+    "occupation": "менеджер",
+    "shopping_frequency": "часто",
+    "preferred_category": "косметика"
+  },
+  {
+    "name": "Елена Смирнова",
+    "age": 32,
+    "city": "Москва",
+    "income_rub": 120000,
+    "occupation": "IT-специалист",
+    "shopping_frequency": "часто",
+    "preferred_category": "электроника"
+  },
+  {
+    "name": "Анна Смирнова",
+    "age": 28,
+    "city": "Москва",
+    "income_rub": 120000,
+    "occupation": "IT-специалист",
+    "shopping_frequency": "часто",
+    "preferred_category": "электроника"
+  },
+  {
+    "name": "Анна Петрова",
+    "age": 28,
+    "city": "Казань",
+    "income_rub": 75000,
+    "occupation": "менеджер",
+    "shopping_frequency": "иногда",
+    "preferred_category": "косметика"
+  },
+  {
+    "name": "Анна",
+    "age": 29,
+    "city": "Казань",
+    "income_rub": 95000,
+    "occupation": "менеджер",
+    "shopping_frequency": "часто",
+    "preferred_category": "косметика"
+  },
+  {
+    "name": "Анна Смирнова",
+    "age": 34,
+    "city": "Москва",
+    "income_rub": 120000,
+    "occupation": "менеджер",
+    "shopping_frequency": "часто",
+    "preferred_category": "одежда"
+  },
+  {
+    "name": "Анна",
+    "age": 29,
+    "city": "Казань",
+    "income_rub": 65000,
+    "occupation": "менеджер",
+    "shopping_frequency": "часто",
+    "preferred_category": "одежда"
+  },
+  {
+    "name": "Екатерина Смирнова",
+    "age": 28,
+    "city": "Казань",
+    "income_rub": 85000,
+    "occupation": "менеджер",
+    "shopping_frequency": "иногда",
+    "preferred_category": "косметика"
+  },
+  {
+    "name": "Екатерина Смирнова",
+    "age": 32,
+    "city": "Москва",
+    "income_rub": 120000,
+    "occupation": "менеджер",
+    "shopping_frequency": "часто",
+    "preferred_category": "одежда"
+  },
+  {
+    "name": "Анна",
+    "age": 29,
+    "city": "Москва",
+    "income_rub": 120000,
+    "occupation": "менеджер",
+    "shopping_frequency": "часто",
+    "preferred_category": "одежда"
+  },
+  {
+    "name": "Елена",
+    "age": 34,
+    "city": "Москва",
+    "income_rub": 120000,
+    "occupation": "IT-специалист",
+    "shopping_frequency": "часто",
+    "preferred_category": "электроника"
+  },
+  {
+    "name": "Анастасия",
+    "age": 27,
+    "city": "Москва",
+    "income_rub": 120000,
+    "occupation": "менеджер",
+    "shopping_frequency": "часто",
+    "preferred_category": "косметика"
+  },
+  {
+    "name": "Анна",
+    "age": 34,
+    "city": "Казань",
+    "income_rub": 85000,
+    "occupation": "IT-специалист",
+    "shopping_frequency": "часто",
+    "preferred_category": "электроника"
+  },
+  {
+    "name": "Никита",
+    "age": 28,
+    "city": "Москва",
+    "income_rub": 90000,
+    "occupation": "IT-специалист",
+    "shopping_frequency": "часто",
+    "preferred_category": "электроника"
+  },
+  {
+    "name": "Анна Иванова",
+    "age": 34,
+    "city": "Казань",
+    "income_rub": 90000,
+    "occupation": "менеджер",
+    "shopping_frequency": "часто",
+    "preferred_category": "одежда"
+  },
+  {
+    "name": "Екатерина",
+    "age": 28,
+    "city": "Москва",
+    "income_rub": 120000,
+    "occupation": "менеджер",
+    "shopping_frequency": "часто",
+    "preferred_category": "одежда"
+  },
+  {
+    "name": "Анна Смирнова",
+    "age": 30,
+    "city": "Москва",
+    "income_rub": 120000,
+    "occupation": "менеджер",
+    "shopping_frequency": "часто",
+    "preferred_category": "одежда"
+  },
+  {
+    "name": "Иван Петров",
+    "age": 34,
+    "city": "Москва",
+    "income_rub": 120000,
+    "occupation": "IT-специалист",
+    "shopping_frequency": "часто",
+    "preferred_category": "электроника"
+  }
+]
