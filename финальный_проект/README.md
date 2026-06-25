@@ -132,7 +132,7 @@ python src/analyze_all.py
 | tables/comparison_real_vs_synthetic.csv | Сравнение с РМЭЗ |
 | tables/question_statistics.csv | Статистика по вопросам |
 
-
+-----
 | Файл | Описание |
 |------|----------|
 | `eval_results.json` | Оценка качества ответов (15+ кейсов) |
