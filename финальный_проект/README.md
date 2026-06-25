@@ -157,8 +157,9 @@ python src/stats.py
 | tables/comparison_no_val_vs_with_val.csv | Сравнение с/без валидатора |
 | tables/comparison_real_vs_synthetic.csv | Сравнение с РМЭЗ |
 | tables/question_statistics.csv | Статистика по вопросам |
-| `eval_results.json` | Результаты оценки качества (75 кейсов, 100% PASS) |
-| `hallucination_report.json` | Отчёт о галлюцинациях (1/250 невалидных ответов) |
+| tables/comparison_by_gender.csv | Сравнение по полу |
+| eval_results.json | Результаты оценки качества (75 кейсов, 100% PASS) |
+| hallucination_report.json | Отчёт о галлюцинациях (1/250 невалидных ответов) |
 
 
 
