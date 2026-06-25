@@ -4,6 +4,7 @@ analyze_all.py — полный анализ и визуализация
 """
 
 import os
+
 import json
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -14,7 +15,11 @@ from dotenv import load_dotenv
 load_dotenv()
 
 OUTPUT_DIR = os.getenv("OUTPUT_DIR", "output/")
+if not os.path.exists(f"{OUTPUT_DIR}/rlms_clean.csv"):
+    print("Файл rlms_clean.csv не найден. Запустите clean_data.py сначала.")
+    exit(1)
 
+    
 # Создаём папку для графиков
 PLOTS_DIR = f"{OUTPUT_DIR}/plots"
 os.makedirs(PLOTS_DIR, exist_ok=True)

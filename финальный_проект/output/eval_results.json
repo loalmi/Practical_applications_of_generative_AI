@@ -1,0 +1,1433 @@
+{
+  "total_cases": 75,
+  "total_llm_calls": 75,
+  "total_tokens": 8304,
+  "estimated_cost": 0.000116,
+  "results": [
+    {
+      "question": "Как вы оцениваете своё материальное положение в настоящее время?",
+      "profile": {
+        "gender": "Женский",
+        "age": 73,
+        "education": "Высшее и выше",
+        "region": 45,
+        "has_children": false
+      },
+      "model_answer": "Скорее удовлетворен",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует одному из допустимых вариантов и не противоречит профилю респондента.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 111,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Как изменилось ваше материальное положение за последние 3 года?",
+      "profile": {
+        "gender": "Женский",
+        "age": 73,
+        "education": "Высшее и выше",
+        "region": 45,
+        "has_children": false
+      },
+      "model_answer": "Осталось без изменений",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует одному из допустимых вариантов и не противоречит профилю респондента.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 112,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Насколько вы доверяете большинству людей?",
+      "profile": {
+        "gender": "Женский",
+        "age": 73,
+        "education": "Высшее и выше",
+        "region": 45,
+        "has_children": false
+      },
+      "model_answer": "Зависит от человека и условий",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует одному из допустимых вариантов.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 110,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Как вы оцениваете состояние своего здоровья?",
+      "profile": {
+        "gender": "Женский",
+        "age": 73,
+        "education": "Высшее и выше",
+        "region": 45,
+        "has_children": false
+      },
+      "model_answer": "Удовлетворительное",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует допустимому варианту и типичен для респондента данного возраста",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 107,
+      "estimated_cost": 1e-06
+    },
+    {
+      "question": "Как вы думаете, через год ваше материальное положение станет лучше или хуже?",
+      "profile": {
+        "gender": "Женский",
+        "age": 73,
+        "education": "Высшее и выше",
+        "region": 45,
+        "has_children": false
+      },
+      "model_answer": "Останется прежним",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует допустимому варианту и типичен для возрастной группы с высшим образованием, часто ожидающей стабильности.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 114,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Как вы оцениваете своё материальное положение в настоящее время?",
+      "profile": {
+        "gender": "Женский",
+        "age": 50,
+        "education": "Среднее специальное",
+        "region": 138,
+        "has_children": false
+      },
+      "model_answer": "Не очень удовлетворен",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует одному из допустимых вариантов и не противоречит профилю респондента.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 112,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Как изменилось ваше материальное положение за последние 3 года?",
+      "profile": {
+        "gender": "Женский",
+        "age": 50,
+        "education": "Среднее специальное",
+        "region": 138,
+        "has_children": false
+      },
+      "model_answer": "Осталось без изменений",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует вопросу и выбран из допустимых вариантов. Соответствие профилю не может быть оценено, так как вопрос не зависит от пола, возраста или образования.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 112,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Насколько вы доверяете большинству людей?",
+      "profile": {
+        "gender": "Женский",
+        "age": 50,
+        "education": "Среднее специальное",
+        "region": 138,
+        "has_children": false
+      },
+      "model_answer": "Зависит от человека и условий",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует вопросу и выбранному списку допустимых вариантов. Вариант 'Зависит от человека и условий' адекватно отражает взвешенную позицию, возможную для женщины 50 лет со средним специальным образованием.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 110,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Как вы оцениваете состояние своего здоровья?",
+      "profile": {
+        "gender": "Женский",
+        "age": 50,
+        "education": "Среднее специальное",
+        "region": 138,
+        "has_children": false
+      },
+      "model_answer": "Удовлетворительное",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ респондента полностью соответствует допустимому варианту ответа на вопрос анкеты.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 107,
+      "estimated_cost": 1e-06
+    },
+    {
+      "question": "Как вы думаете, через год ваше материальное положение станет лучше или хуже?",
+      "profile": {
+        "gender": "Женский",
+        "age": 50,
+        "education": "Среднее специальное",
+        "region": 138,
+        "has_children": false
+      },
+      "model_answer": "Останется прежним",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ респондента точно соответствует одному из допустимых вариантов и не противоречит профилю (возраст и образование не влияют на вероятность такого прогноза).",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 114,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Как вы оцениваете своё материальное положение в настоящее время?",
+      "profile": {
+        "gender": "Женский",
+        "age": 67,
+        "education": "Неполное среднее",
+        "region": 33,
+        "has_children": false
+      },
+      "model_answer": "Не очень удовлетворен",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует допустимому варианту и адекватен профилю респондента (пожилая женщина с неполным средним образованием, вероятно, имеющая скромное материальное положение).",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 112,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Как изменилось ваше материальное положение за последние 3 года?",
+      "profile": {
+        "gender": "Женский",
+        "age": 67,
+        "education": "Неполное среднее",
+        "region": 33,
+        "has_children": false
+      },
+      "model_answer": "Осталось без изменений",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует допустимому варианту и не противоречит профилю респондента.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 112,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Насколько вы доверяете большинству людей?",
+      "profile": {
+        "gender": "Женский",
+        "age": 67,
+        "education": "Неполное среднее",
+        "region": 33,
+        "has_children": false
+      },
+      "model_answer": "Всегда надо быть осторожным",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует ожидаемому для данного профиля: пожилая женщина с неполным средним образованием с большей вероятностью выберет осторожную позицию.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 109,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Как вы оцениваете состояние своего здоровья?",
+      "profile": {
+        "gender": "Женский",
+        "age": 67,
+        "education": "Неполное среднее",
+        "region": 33,
+        "has_children": false
+      },
+      "model_answer": "Удовлетворительное",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует допустимому варианту и типичен для возраста и уровня образования респондента.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 107,
+      "estimated_cost": 1e-06
+    },
+    {
+      "question": "Как вы думаете, через год ваше материальное положение станет лучше или хуже?",
+      "profile": {
+        "gender": "Женский",
+        "age": 67,
+        "education": "Неполное среднее",
+        "region": 33,
+        "has_children": false
+      },
+      "model_answer": "Останется прежним",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует одному из допустимых вариантов и не противоречит профилю респондента.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 114,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Как вы оцениваете своё материальное положение в настоящее время?",
+      "profile": {
+        "gender": "Женский",
+        "age": 15,
+        "education": "Неполное среднее",
+        "region": 45,
+        "has_children": false
+      },
+      "model_answer": "И да, и нет",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует одному из допустимых вариантов и адекватен для профиля респондента.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 113,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Как изменилось ваше материальное положение за последние 3 года?",
+      "profile": {
+        "gender": "Женский",
+        "age": 15,
+        "education": "Неполное среднее",
+        "region": 45,
+        "has_children": false
+      },
+      "model_answer": "Осталось без изменений",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует допустимому варианту и профилю респондента.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 112,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Насколько вы доверяете большинству людей?",
+      "profile": {
+        "gender": "Женский",
+        "age": 15,
+        "education": "Неполное среднее",
+        "region": 45,
+        "has_children": false
+      },
+      "model_answer": "Зависит от человека и условий",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует допустимому варианту и профилю респондента. Для 15-летней девушки с неполным средним образованием такой ответ логичен и зрел.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 110,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Как вы оцениваете состояние своего здоровья?",
+      "profile": {
+        "gender": "Женский",
+        "age": 15,
+        "education": "Неполное среднее",
+        "region": 45,
+        "has_children": false
+      },
+      "model_answer": "Хорошее",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует допустимому варианту и профилю респондента (девушка 15 лет, неполное среднее образование, оценка 'Хорошее' типична для данного возраста).",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 107,
+      "estimated_cost": 1e-06
+    },
+    {
+      "question": "Как вы думаете, через год ваше материальное положение станет лучше или хуже?",
+      "profile": {
+        "gender": "Женский",
+        "age": 15,
+        "education": "Неполное среднее",
+        "region": 45,
+        "has_children": false
+      },
+      "model_answer": "Останется прежним",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует допустимому варианту и не противоречит профилю респондента.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 114,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Как вы оцениваете своё материальное положение в настоящее время?",
+      "profile": {
+        "gender": "Мужской",
+        "age": 39,
+        "education": "Среднее специальное",
+        "region": 137,
+        "has_children": false
+      },
+      "model_answer": "Скорее удовлетворен",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует одному из допустимых вариантов.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 111,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Как изменилось ваше материальное положение за последние 3 года?",
+      "profile": {
+        "gender": "Мужской",
+        "age": 39,
+        "education": "Среднее специальное",
+        "region": 137,
+        "has_children": false
+      },
+      "model_answer": "Осталось без изменений",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует допустимому варианту и не противоречит профилю.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 112,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Насколько вы доверяете большинству людей?",
+      "profile": {
+        "gender": "Мужской",
+        "age": 39,
+        "education": "Среднее специальное",
+        "region": 137,
+        "has_children": false
+      },
+      "model_answer": "Зависит от человека и условий",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ соответствует одному из допустимых вариантов и логичен для данного профиля.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 110,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Как вы оцениваете состояние своего здоровья?",
+      "profile": {
+        "gender": "Мужской",
+        "age": 39,
+        "education": "Среднее специальное",
+        "region": 137,
+        "has_children": false
+      },
+      "model_answer": "Хорошее",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует допустимому варианту и типичен для данного профиля.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 107,
+      "estimated_cost": 1e-06
+    },
+    {
+      "question": "Как вы думаете, через год ваше материальное положение станет лучше или хуже?",
+      "profile": {
+        "gender": "Мужской",
+        "age": 39,
+        "education": "Среднее специальное",
+        "region": 137,
+        "has_children": false
+      },
+      "model_answer": "Останется прежним",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует одному из допустимых вариантов и не противоречит профилю респондента.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 114,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Как вы оцениваете своё материальное положение в настоящее время?",
+      "profile": {
+        "gender": "Женский",
+        "age": 46,
+        "education": "Высшее и выше",
+        "region": 138,
+        "has_children": false
+      },
+      "model_answer": "Скорее удовлетворен",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует одному из допустимых вариантов и не противоречит профилю респондента.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 111,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Как изменилось ваше материальное положение за последние 3 года?",
+      "profile": {
+        "gender": "Женский",
+        "age": 46,
+        "education": "Высшее и выше",
+        "region": 138,
+        "has_children": false
+      },
+      "model_answer": "Осталось без изменений",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует одному из допустимых вариантов, профилю респондента и вопросу.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 112,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Насколько вы доверяете большинству людей?",
+      "profile": {
+        "gender": "Женский",
+        "age": 46,
+        "education": "Высшее и выше",
+        "region": 138,
+        "has_children": false
+      },
+      "model_answer": "Зависит от человека и условий",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует одному из допустимых вариантов и профилю респондента.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 110,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Как вы оцениваете состояние своего здоровья?",
+      "profile": {
+        "gender": "Женский",
+        "age": 46,
+        "education": "Высшее и выше",
+        "region": 138,
+        "has_children": false
+      },
+      "model_answer": "Хорошее",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует допустимому варианту и профилю респондента.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 107,
+      "estimated_cost": 1e-06
+    },
+    {
+      "question": "Как вы думаете, через год ваше материальное положение станет лучше или хуже?",
+      "profile": {
+        "gender": "Женский",
+        "age": 46,
+        "education": "Высшее и выше",
+        "region": 138,
+        "has_children": false
+      },
+      "model_answer": "Останется прежним",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует допустимому варианту и не противоречит профилю респондента.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 114,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Как вы оцениваете своё материальное положение в настоящее время?",
+      "profile": {
+        "gender": "Женский",
+        "age": 73,
+        "education": "Среднее",
+        "region": 105,
+        "has_children": false
+      },
+      "model_answer": "Не очень удовлетворен",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует одному из допустимых вариантов и не противоречит профилю респондента.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 112,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Как изменилось ваше материальное положение за последние 3 года?",
+      "profile": {
+        "gender": "Женский",
+        "age": 73,
+        "education": "Среднее",
+        "region": 105,
+        "has_children": false
+      },
+      "model_answer": "Осталось без изменений",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует одному из допустимых вариантов, не противоречит профилю респондента.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 112,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Насколько вы доверяете большинству людей?",
+      "profile": {
+        "gender": "Женский",
+        "age": 73,
+        "education": "Среднее",
+        "region": 105,
+        "has_children": false
+      },
+      "model_answer": "Всегда надо быть осторожным",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует допустимому варианту и типичен для возрастной группы с осторожным отношением к людям.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 109,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Как вы оцениваете состояние своего здоровья?",
+      "profile": {
+        "gender": "Женский",
+        "age": 73,
+        "education": "Среднее",
+        "region": 105,
+        "has_children": false
+      },
+      "model_answer": "Удовлетворительное",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ 'Удовлетворительное' полностью соответствует одному из допустимых вариантов и типичен для женщины 73 лет со средним образованием.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 107,
+      "estimated_cost": 1e-06
+    },
+    {
+      "question": "Как вы думаете, через год ваше материальное положение станет лучше или хуже?",
+      "profile": {
+        "gender": "Женский",
+        "age": 73,
+        "education": "Среднее",
+        "region": 105,
+        "has_children": false
+      },
+      "model_answer": "Останется прежним",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует допустимому варианту и логичен для профиля респондента (пожилой возраст, среднее образование, консервативные ожидания).",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 114,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Как вы оцениваете своё материальное положение в настоящее время?",
+      "profile": {
+        "gender": "Женский",
+        "age": 66,
+        "education": "Среднее специальное",
+        "region": 92,
+        "has_children": false
+      },
+      "model_answer": "Не очень удовлетворен",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует одному из допустимых вариантов. Для женщины 66 лет со средним специальным образованием такой ответ на вопрос о материальном положении является типичным, поэтому соответствует профилю.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 112,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Как изменилось ваше материальное положение за последние 3 года?",
+      "profile": {
+        "gender": "Женский",
+        "age": 66,
+        "education": "Среднее специальное",
+        "region": 92,
+        "has_children": false
+      },
+      "model_answer": "Осталось без изменений",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует допустимому варианту и не противоречит профилю респондента.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 112,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Насколько вы доверяете большинству людей?",
+      "profile": {
+        "gender": "Женский",
+        "age": 66,
+        "education": "Среднее специальное",
+        "region": 92,
+        "has_children": false
+      },
+      "model_answer": "Всегда надо быть осторожным",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует допустимому варианту и типичному поведению для возраста и образования респондента, предполагающему осторожность в межличностном доверии.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 109,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Как вы оцениваете состояние своего здоровья?",
+      "profile": {
+        "gender": "Женский",
+        "age": 66,
+        "education": "Среднее специальное",
+        "region": 92,
+        "has_children": false
+      },
+      "model_answer": "Удовлетворительное",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует допустимому варианту и ожидаем для данного возраста и образования.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 107,
+      "estimated_cost": 1e-06
+    },
+    {
+      "question": "Как вы думаете, через год ваше материальное положение станет лучше или хуже?",
+      "profile": {
+        "gender": "Женский",
+        "age": 66,
+        "education": "Среднее специальное",
+        "region": 92,
+        "has_children": false
+      },
+      "model_answer": "Останется прежним",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует одному из допустимых вариантов и адекватен для профиля респондента (возраст 66 лет, среднее специальное образование — типично консервативное ожидание стабильности).",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 114,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Как вы оцениваете своё материальное положение в настоящее время?",
+      "profile": {
+        "gender": "Мужской",
+        "age": 34,
+        "education": "Среднее специальное",
+        "region": 137,
+        "has_children": false
+      },
+      "model_answer": "Скорее удовлетворен",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует одному из допустимых вариантов и не противоречит профилю респондента.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 111,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Как изменилось ваше материальное положение за последние 3 года?",
+      "profile": {
+        "gender": "Мужской",
+        "age": 34,
+        "education": "Среднее специальное",
+        "region": 137,
+        "has_children": false
+      },
+      "model_answer": "Немного ухудшилось",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует одному из допустимых вариантов и не противоречит профилю респондента.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 111,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Насколько вы доверяете большинству людей?",
+      "profile": {
+        "gender": "Мужской",
+        "age": 34,
+        "education": "Среднее специальное",
+        "region": 137,
+        "has_children": false
+      },
+      "model_answer": "Зависит от человека и условий",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует одному из допустимых вариантов и адекватен для респондента с данным профилем.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 110,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Как вы оцениваете состояние своего здоровья?",
+      "profile": {
+        "gender": "Мужской",
+        "age": 34,
+        "education": "Среднее специальное",
+        "region": 137,
+        "has_children": false
+      },
+      "model_answer": "Удовлетворительное",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует допустимому варианту и не противоречит профилю респондента.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 107,
+      "estimated_cost": 1e-06
+    },
+    {
+      "question": "Как вы думаете, через год ваше материальное положение станет лучше или хуже?",
+      "profile": {
+        "gender": "Мужской",
+        "age": 34,
+        "education": "Среднее специальное",
+        "region": 137,
+        "has_children": false
+      },
+      "model_answer": "Останется прежним",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует допустимому варианту и не противоречит профилю респондента.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 114,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Как вы оцениваете своё материальное положение в настоящее время?",
+      "profile": {
+        "gender": "Мужской",
+        "age": 22,
+        "education": "Среднее специальное",
+        "region": 67,
+        "has_children": false
+      },
+      "model_answer": "Скорее удовлетворен",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует одному из допустимых вариантов и не противоречит профилю респондента.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 111,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Как изменилось ваше материальное положение за последние 3 года?",
+      "profile": {
+        "gender": "Мужской",
+        "age": 22,
+        "education": "Среднее специальное",
+        "region": 67,
+        "has_children": false
+      },
+      "model_answer": "Немного улучшилось",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует допустимому варианту и не противоречит профилю респондента.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 111,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Насколько вы доверяете большинству людей?",
+      "profile": {
+        "gender": "Мужской",
+        "age": 22,
+        "education": "Среднее специальное",
+        "region": 67,
+        "has_children": false
+      },
+      "model_answer": "Всегда надо быть осторожным",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует одному из допустимых вариантов и типичен для молодых мужчин со средним специальным образованием, которые часто склонны к осторожности в социальных взаимодействиях.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 109,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Как вы оцениваете состояние своего здоровья?",
+      "profile": {
+        "gender": "Мужской",
+        "age": 22,
+        "education": "Среднее специальное",
+        "region": 67,
+        "has_children": false
+      },
+      "model_answer": "Хорошее",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ 'Хорошее' является допустимым вариантом и соответствует типичной самооценке здоровья для молодого мужчины 22 лет со средним специальным образованием.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 107,
+      "estimated_cost": 1e-06
+    },
+    {
+      "question": "Как вы думаете, через год ваше материальное положение станет лучше или хуже?",
+      "profile": {
+        "gender": "Мужской",
+        "age": 22,
+        "education": "Среднее специальное",
+        "region": 67,
+        "has_children": false
+      },
+      "model_answer": "Немного лучше",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ соответствует одному из допустимых вариантов и не противоречит профилю.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 114,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Как вы оцениваете своё материальное положение в настоящее время?",
+      "profile": {
+        "gender": "Женский",
+        "age": 32,
+        "education": "Высшее и выше",
+        "region": 138,
+        "has_children": false
+      },
+      "model_answer": "Скорее удовлетворен",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует одному из допустимых вариантов и профилю респондента.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 111,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Как изменилось ваше материальное положение за последние 3 года?",
+      "profile": {
+        "gender": "Женский",
+        "age": 32,
+        "education": "Высшее и выше",
+        "region": 138,
+        "has_children": false
+      },
+      "model_answer": "Немного улучшилось",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ респондента полностью соответствует одному из допустимых вариантов и не противоречит профилю.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 111,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Насколько вы доверяете большинству людей?",
+      "profile": {
+        "gender": "Женский",
+        "age": 32,
+        "education": "Высшее и выше",
+        "region": 138,
+        "has_children": false
+      },
+      "model_answer": "Зависит от человека и условий",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует допустимому варианту и логично согласуется с профилем респондента (женщина 32 лет с высшим образованием, склонная к взвешенным оценкам).",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 110,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Как вы оцениваете состояние своего здоровья?",
+      "profile": {
+        "gender": "Женский",
+        "age": 32,
+        "education": "Высшее и выше",
+        "region": 138,
+        "has_children": false
+      },
+      "model_answer": "Хорошее",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ в точности соответствует одному из допустимых вариантов и не противоречит профилю респондента.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 107,
+      "estimated_cost": 1e-06
+    },
+    {
+      "question": "Как вы думаете, через год ваше материальное положение станет лучше или хуже?",
+      "profile": {
+        "gender": "Женский",
+        "age": 32,
+        "education": "Высшее и выше",
+        "region": 138,
+        "has_children": false
+      },
+      "model_answer": "Немного лучше",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует одному из допустимых вариантов и типичен для респондента с высшим образованием и возраста 32 лет, часто ожидающего умеренного улучшения.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 114,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Как вы оцениваете своё материальное положение в настоящее время?",
+      "profile": {
+        "gender": "Женский",
+        "age": 80,
+        "education": "Высшее и выше",
+        "region": 138,
+        "has_children": false
+      },
+      "model_answer": "Скорее удовлетворен",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует одному из допустимых вариантов и не противоречит профилю респондента.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 111,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Как изменилось ваше материальное положение за последние 3 года?",
+      "profile": {
+        "gender": "Женский",
+        "age": 80,
+        "education": "Высшее и выше",
+        "region": 138,
+        "has_children": false
+      },
+      "model_answer": "Осталось без изменений",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует одному из допустимых вариантов и не противоречит профилю респондента.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 112,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Насколько вы доверяете большинству людей?",
+      "profile": {
+        "gender": "Женский",
+        "age": 80,
+        "education": "Высшее и выше",
+        "region": 138,
+        "has_children": false
+      },
+      "model_answer": "Всегда надо быть осторожным",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует вопросу и допустимому варианту. Для возраста 80 лет и жизненного опыта такая осторожность типична.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 109,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Как вы оцениваете состояние своего здоровья?",
+      "profile": {
+        "gender": "Женский",
+        "age": 80,
+        "education": "Высшее и выше",
+        "region": 138,
+        "has_children": false
+      },
+      "model_answer": "Удовлетворительное",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует допустимому варианту и типичен для респондента данного возраста и образования.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 107,
+      "estimated_cost": 1e-06
+    },
+    {
+      "question": "Как вы думаете, через год ваше материальное положение станет лучше или хуже?",
+      "profile": {
+        "gender": "Женский",
+        "age": 80,
+        "education": "Высшее и выше",
+        "region": 138,
+        "has_children": false
+      },
+      "model_answer": "Останется прежним",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ соответствует ожидаемому для данного профиля: женщина 80 лет с высшим образованием, скорее всего, не ожидает значительных изменений в материальном положении в ближайший год, поэтому 'Останется прежним' — разумный и реалистичный выбор.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 114,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Как вы оцениваете своё материальное положение в настоящее время?",
+      "profile": {
+        "gender": "Мужской",
+        "age": 27,
+        "education": "Высшее",
+        "region": 92,
+        "has_children": false
+      },
+      "model_answer": "Скорее удовлетворен",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует одному из допустимых вариантов.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 111,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Как изменилось ваше материальное положение за последние 3 года?",
+      "profile": {
+        "gender": "Мужской",
+        "age": 27,
+        "education": "Высшее",
+        "region": 92,
+        "has_children": false
+      },
+      "model_answer": "Немного улучшилось",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует допустимому варианту и не противоречит профилю респондента.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 111,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Насколько вы доверяете большинству людей?",
+      "profile": {
+        "gender": "Мужской",
+        "age": 27,
+        "education": "Высшее",
+        "region": 92,
+        "has_children": false
+      },
+      "model_answer": "Зависит от человека и условий",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует одному из допустимых вариантов и отражает гибкий подход к вопросу доверия, что типично для взрослого человека с высшим образованием.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 110,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Как вы оцениваете состояние своего здоровья?",
+      "profile": {
+        "gender": "Мужской",
+        "age": 27,
+        "education": "Высшее",
+        "region": 92,
+        "has_children": false
+      },
+      "model_answer": "Хорошее",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ респондента полностью соответствует допустимому варианту и не противоречит профилю.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 107,
+      "estimated_cost": 1e-06
+    },
+    {
+      "question": "Как вы думаете, через год ваше материальное положение станет лучше или хуже?",
+      "profile": {
+        "gender": "Мужской",
+        "age": 27,
+        "education": "Высшее",
+        "region": 92,
+        "has_children": false
+      },
+      "model_answer": "Немного лучше",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует допустимому варианту и профилю респондента.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 114,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Как вы оцениваете своё материальное положение в настоящее время?",
+      "profile": {
+        "gender": "Женский",
+        "age": 64,
+        "education": "Среднее специальное",
+        "region": 39,
+        "has_children": false
+      },
+      "model_answer": "Не очень удовлетворен",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует допустимому варианту и профилю респондента (женщина 64 лет со средним специальным образованием, часто оценивающая материальное положение как неудовлетворительное).",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 112,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Как изменилось ваше материальное положение за последние 3 года?",
+      "profile": {
+        "gender": "Женский",
+        "age": 64,
+        "education": "Среднее специальное",
+        "region": 39,
+        "has_children": false
+      },
+      "model_answer": "Немного ухудшилось",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует одному из допустимых вариантов и не противоречит профилю респондента.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 111,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Насколько вы доверяете большинству людей?",
+      "profile": {
+        "gender": "Женский",
+        "age": 64,
+        "education": "Среднее специальное",
+        "region": 39,
+        "has_children": false
+      },
+      "model_answer": "Всегда надо быть осторожным",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует одному из допустимых вариантов.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 109,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Как вы оцениваете состояние своего здоровья?",
+      "profile": {
+        "gender": "Женский",
+        "age": 64,
+        "education": "Среднее специальное",
+        "region": 39,
+        "has_children": false
+      },
+      "model_answer": "Удовлетворительное",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует допустимому варианту и адекватен профилю респондента.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 107,
+      "estimated_cost": 1e-06
+    },
+    {
+      "question": "Как вы думаете, через год ваше материальное положение станет лучше или хуже?",
+      "profile": {
+        "gender": "Женский",
+        "age": 64,
+        "education": "Среднее специальное",
+        "region": 39,
+        "has_children": false
+      },
+      "model_answer": "Останется прежним",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ соответствует допустимому варианту и профилю респондента.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 114,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Как вы оцениваете своё материальное положение в настоящее время?",
+      "profile": {
+        "gender": "Мужской",
+        "age": 44,
+        "education": "Среднее специальное",
+        "region": 200,
+        "has_children": false
+      },
+      "model_answer": "Скорее удовлетворен",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует допустимому варианту и не противоречит профилю респондента.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 111,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Как изменилось ваше материальное положение за последние 3 года?",
+      "profile": {
+        "gender": "Мужской",
+        "age": 44,
+        "education": "Среднее специальное",
+        "region": 200,
+        "has_children": false
+      },
+      "model_answer": "Немного ухудшилось",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует одному из допустимых вариантов.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 111,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Насколько вы доверяете большинству людей?",
+      "profile": {
+        "gender": "Мужской",
+        "age": 44,
+        "education": "Среднее специальное",
+        "region": 200,
+        "has_children": false
+      },
+      "model_answer": "Всегда надо быть осторожным",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует одному из допустимых вариантов и типичен для респондента с данным профилем (мужчина среднего возраста со средним специальным образованием, часто проявляющий осторожность в социальных взаимодействиях).",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 109,
+      "estimated_cost": 2e-06
+    },
+    {
+      "question": "Как вы оцениваете состояние своего здоровья?",
+      "profile": {
+        "gender": "Мужской",
+        "age": 44,
+        "education": "Среднее специальное",
+        "region": 200,
+        "has_children": false
+      },
+      "model_answer": "Хорошее",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует допустимому варианту и не противоречит профилю респондента.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 107,
+      "estimated_cost": 1e-06
+    },
+    {
+      "question": "Как вы думаете, через год ваше материальное положение станет лучше или хуже?",
+      "profile": {
+        "gender": "Мужской",
+        "age": 44,
+        "education": "Среднее специальное",
+        "region": 200,
+        "has_children": false
+      },
+      "model_answer": "Останется прежним",
+      "valid_option": true,
+      "judge_score": 5,
+      "judge_comment": "Ответ полностью соответствует одному из допустимых вариантов.",
+      "matches_profile": true,
+      "pass_fail": "PASS",
+      "llm_calls": 1,
+      "tokens_used": 114,
+      "estimated_cost": 2e-06
+    }
+  ]
+}

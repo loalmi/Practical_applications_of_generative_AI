@@ -1,0 +1,33 @@
+{
+  "total_responses": 250,
+  "invalid_options": [
+    {
+      "question": "Q1",
+      "answer": "4. Не очень удовлетворен",
+      "profile": {
+        "gender": "Мужской",
+        "age": 21,
+        "education": "Высшее",
+        "region": 138,
+        "has_children": false
+      }
+    }
+  ],
+  "profile_contradictions": [],
+  "hallucinated_categories": {
+    "4. Не очень удовлетворен": 1
+  },
+  "examples": [
+    {
+      "question": "Q1",
+      "answer": "4. Не очень удовлетворен",
+      "profile": {
+        "gender": "Мужской",
+        "age": 21,
+        "education": "Высшее",
+        "region": 138,
+        "has_children": false
+      }
+    }
+  ]
+}
